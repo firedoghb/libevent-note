@@ -563,7 +563,7 @@ event_base_new_with_config(const struct event_config *cfg)
 		event_warn("%s: calloc", __func__);
 		return NULL;
 	}
-    
+
     // 检查是否相对时间可用
 	detect_monotonic();
 
@@ -573,10 +573,10 @@ event_base_new_with_config(const struct event_config *cfg)
      * 否则gmtime放进去(按或者不按相对时间算)
      */
 	gettime(base, &base->event_tv);
-    
-    // 初始化超时的优先级队列 TODO
+
+    // 初始化超时的优先级队列 最小堆实现
 	min_heap_ctor(&base->timeheap);
-    
+
     /// 双端队列
 	TAILQ_INIT(&base->eventqueue);
 	base->sig.ev_signal_pair[0] = -1;

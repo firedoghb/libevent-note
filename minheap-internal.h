@@ -37,6 +37,7 @@
 
 typedef struct min_heap
 {
+    // struct event 在include/event2/event_struct.h定义
 	struct event ** p;
 	unsigned n, a;
 } min_heap_t;
