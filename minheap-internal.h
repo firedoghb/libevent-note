@@ -37,7 +37,7 @@
 
 typedef struct min_heap
 {
-	struct event** p;
+	struct event ** p;
 	unsigned n, a;
 } min_heap_t;
 

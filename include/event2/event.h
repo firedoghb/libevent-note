@@ -269,6 +269,8 @@ struct event_base
  *    event_get_callback(), event_get_callback_arg(),
  *    event_priority_set()
  */
+
+// 在event-internl 中定义
 struct event
 #ifdef _EVENT_IN_DOXYGEN
 {/*Empty body so that doxygen will generate documentation here.*/}
