@@ -65,7 +65,7 @@ int min_heap_elem_greater(struct event *a, struct event *b)
 void min_heap_ctor(min_heap_t* s) { s->p = 0; s->n = 0; s->a = 0; }
 void min_heap_dtor(min_heap_t* s) { if (s->p) mm_free(s->p); }
 void min_heap_elem_init(struct event* e) { e->ev_timeout_pos.min_heap_idx = -1; }
-int min_heap_empty(min_heap_t* s) { return 0u == s->n; }    // unsigned 0 ? 这规范也太规了...
+int min_heap_empty(min_heap_t* s) { return 0u == s->n; }    // 这货会直接隐式转化啊.写个0u干嘛...
 unsigned min_heap_size(min_heap_t* s) { return s->n; }
 struct event* min_heap_top(min_heap_t* s) { return s->n ? *s->p : 0; }
 

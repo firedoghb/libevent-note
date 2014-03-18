@@ -85,15 +85,18 @@ struct name {					\
 
 struct event_base;
 struct event {
-	TAILQ_ENTRY(event) ev_active_next;
-	TAILQ_ENTRY(event) ev_next;
+	TAILQ_ENTRY(event) ev_active_next;                            // 就绪事件链表
+	TAILQ_ENTRY(event) ev_next;                                   // 已注册的事件链表
+
 	/* for managing timeouts */
 	union {
 		TAILQ_ENTRY(event) ev_next_with_common_timeout;
-		int min_heap_idx;
+		int min_heap_idx;                                         // 该时间在event定时最小堆的位置
 	} ev_timeout_pos;
-	evutil_socket_t ev_fd;
 
+	evutil_socket_t ev_fd;                                        // 对于I/O事件，代表文件描述符
+                                                                  // 对于信号事件，代表信号
+    
 	struct event_base *ev_base;
 
 	union {
@@ -112,15 +115,15 @@ struct event {
 		} ev_signal;
 	} _ev;
 
-	short ev_events;
+	short ev_events;    // 触发信号，比如EV_READ | EV_WRITE
 	short ev_res;		/* result passed to event callback */
 	short ev_flags;
 	ev_uint8_t ev_pri;	/* smaller numbers are higher priority */
 	ev_uint8_t ev_closure;
-	struct timeval ev_timeout;
+	struct timeval ev_timeout;      // 保存事件的超时时间
 
 	/* allows us to adopt for different types of events */
-	void (*ev_callback)(evutil_socket_t, short, void *arg);
+	void (*ev_callback)(evutil_socket_t, short, void *arg);   // 事件的回调函数
 	void *ev_arg;
 };
 

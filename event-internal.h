@@ -168,12 +168,11 @@ extern int _event_debug_mode_on;
 #endif
 
 struct event_base {
-    /// 这货是备份的意思？
 	/** Function pointers and other data to describe this event_base's
 	 * backend. */
-	const struct eventop *evsel;
+	const struct eventop *evsel;                        // I/O函数的后端实现(即跨平台选择，在linux上为epoll实现)
 	/** Pointer to backend-specific data. */
-	void *evbase;
+	void *evbase;                                       // I/O函数集的全局指针
 
 	/** List of changes to tell backend about at next dispatch.  Only used
 	 * by the O(1) backends. */
