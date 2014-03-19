@@ -437,7 +437,8 @@ event_init(void)
 		event_errx(1, "%s: Unable to construct event_base", __func__);
 		return NULL;
 	}
-
+    
+    // 保留一个全局的event指针
 	current_base = base;
 
 	return (base);
@@ -1725,6 +1726,7 @@ event_base_once(struct event_base *base, evutil_socket_t fd, short events,
 	return (0);
 }
 
+// 这么长的入参是拿来坑爹的么
 int
 event_assign(struct event *ev, struct event_base *base, evutil_socket_t fd, short events, void (*callback)(evutil_socket_t, short, void *), void *arg)
 {
@@ -1744,6 +1746,7 @@ event_assign(struct event *ev, struct event_base *base, evutil_socket_t fd, shor
 	ev->ev_ncalls = 0;
 	ev->ev_pncalls = NULL;
 
+    // 信号只能触发，不能设置可读
 	if (events & EV_SIGNAL) {
 		if ((events & (EV_READ|EV_WRITE)) != 0) {
 			event_warnx("%s: EV_SIGNAL is not compatible with "
@@ -1787,6 +1790,17 @@ event_base_set(struct event_base *base, struct event *ev)
 	return (0);
 }
 
+/* --------------------------------------------------------------------------*/
+/**
+ * @brief  将event挂在event_base上
+ *
+ * @param ev        要设置的event
+ * @param fd        要设置的描述符,可以为-1
+ * @param events    事件类型，比如EV_READ
+ * @param callback  触发事件后的回调函数
+ * @param arg       给回调函数的入参
+ */
+/* ----------------------------------------------------------------------------*/
 void
 event_set(struct event *ev, evutil_socket_t fd, short events,
 	  void (*callback)(evutil_socket_t, short, void *), void *arg)

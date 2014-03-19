@@ -3,11 +3,11 @@
 !_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
-!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run aclocal-1.11$/;"	m
-ACLOCAL	include/Makefile	/^ACLOCAL = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run aclocal-1.11$/;"	m
-ACLOCAL	sample/Makefile	/^ACLOCAL = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run aclocal-1.11$/;"	m
-ACLOCAL	test/Makefile	/^ACLOCAL = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run aclocal-1.11$/;"	m
+!_TAG_PROGRAM_VERSION	5.8	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	include/Makefile	/^ACLOCAL = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	sample/Makefile	/^ACLOCAL = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	test/Makefile	/^ACLOCAL = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run aclocal-1.11$/;"	m
 ACLOCAL_AMFLAGS	Makefile	/^ACLOCAL_AMFLAGS = -I m4$/;"	m
 ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
 ACLOCAL_M4	include/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
@@ -47,18 +47,18 @@ ASSERT_EVBUFFER_LOCKED	evbuffer-internal.h	217;"	d
 ASSERT_LOCKED	evdns.c	417;"	d	file:
 ASSERT_LOCKED	evdns.c	423;"	d	file:
 ASSERT_VALID_REQUEST	evdns.c	133;"	d	file:
-AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run autoconf$/;"	m
-AUTOCONF	include/Makefile	/^AUTOCONF = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run autoconf$/;"	m
-AUTOCONF	sample/Makefile	/^AUTOCONF = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run autoconf$/;"	m
-AUTOCONF	test/Makefile	/^AUTOCONF = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run autoconf$/;"	m
-AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run autoheader$/;"	m
-AUTOHEADER	include/Makefile	/^AUTOHEADER = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run autoheader$/;"	m
-AUTOHEADER	sample/Makefile	/^AUTOHEADER = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run autoheader$/;"	m
-AUTOHEADER	test/Makefile	/^AUTOHEADER = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run autoheader$/;"	m
-AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run automake-1.11$/;"	m
-AUTOMAKE	include/Makefile	/^AUTOMAKE = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run automake-1.11$/;"	m
-AUTOMAKE	sample/Makefile	/^AUTOMAKE = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run automake-1.11$/;"	m
-AUTOMAKE	test/Makefile	/^AUTOMAKE = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run automake-1.11$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run autoconf$/;"	m
+AUTOCONF	include/Makefile	/^AUTOCONF = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run autoconf$/;"	m
+AUTOCONF	sample/Makefile	/^AUTOCONF = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run autoconf$/;"	m
+AUTOCONF	test/Makefile	/^AUTOCONF = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run autoheader$/;"	m
+AUTOHEADER	include/Makefile	/^AUTOHEADER = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run autoheader$/;"	m
+AUTOHEADER	sample/Makefile	/^AUTOHEADER = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run autoheader$/;"	m
+AUTOHEADER	test/Makefile	/^AUTOHEADER = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run automake-1.11$/;"	m
+AUTOMAKE	include/Makefile	/^AUTOMAKE = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run automake-1.11$/;"	m
+AUTOMAKE	sample/Makefile	/^AUTOMAKE = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run automake-1.11$/;"	m
+AUTOMAKE	test/Makefile	/^AUTOMAKE = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run automake-1.11$/;"	m
 AUTOMAKE_OPTIONS	Makefile	/^AUTOMAKE_OPTIONS = foreign 1.7$/;"	m
 AUTOMAKE_OPTIONS	include/Makefile	/^AUTOMAKE_OPTIONS = foreign$/;"	m
 AUTOMAKE_OPTIONS	sample/Makefile	/^AUTOMAKE_OPTIONS = foreign no-dependencies$/;"	m
@@ -181,11 +181,11 @@ CLAMPTO	bufferevent_ratelim.c	212;"	d	file:
 CLASS_INET	evdns.c	153;"	d	file:
 CLEANFILES	test/Makefile	/^CLEANFILES = rpcgen-attempted$/;"	m
 CLOCK_SYNC_INTERVAL	event.c	349;"	d	file:
-COMMON_TIMEOUT_IDX	event.c	1102;"	d	file:
-COMMON_TIMEOUT_IDX_MASK	event.c	1097;"	d	file:
-COMMON_TIMEOUT_IDX_SHIFT	event.c	1098;"	d	file:
-COMMON_TIMEOUT_MAGIC	event.c	1100;"	d	file:
-COMMON_TIMEOUT_MASK	event.c	1099;"	d	file:
+COMMON_TIMEOUT_IDX	event.c	1109;"	d	file:
+COMMON_TIMEOUT_IDX_MASK	event.c	1104;"	d	file:
+COMMON_TIMEOUT_IDX_SHIFT	event.c	1105;"	d	file:
+COMMON_TIMEOUT_MAGIC	event.c	1107;"	d	file:
+COMMON_TIMEOUT_MASK	event.c	1106;"	d	file:
 COMMON_TIMEOUT_MICROSECONDS_MASK	event-internal.h	150;"	d
 COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
 COMPILE	sample/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
@@ -375,11 +375,11 @@ ECHO_T	Makefile	/^ECHO_T = $/;"	m
 ECHO_T	include/Makefile	/^ECHO_T = $/;"	m
 ECHO_T	sample/Makefile	/^ECHO_T = $/;"	m
 ECHO_T	test/Makefile	/^ECHO_T = $/;"	m
-EFD_CLOEXEC	event.c	2767;"	d	file:
-EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
-EGREP	include/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
-EGREP	sample/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
-EGREP	test/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EFD_CLOEXEC	event.c	2774;"	d	file:
+EGREP	Makefile	/^EGREP = \/usr\/bin\/grep -E$/;"	m
+EGREP	include/Makefile	/^EGREP = \/usr\/bin\/grep -E$/;"	m
+EGREP	sample/Makefile	/^EGREP = \/usr\/bin\/grep -E$/;"	m
+EGREP	test/Makefile	/^EGREP = \/usr\/bin\/grep -E$/;"	m
 ENC	test/regress_http.c	2379;"	d	file:
 ENC	test/regress_http.c	2468;"	d	file:
 ENCODE_INT_INTERNAL	event_tagging.c	115;"	d	file:
@@ -498,12 +498,12 @@ EVENT_CHANGELIST_FDINFO_SIZE	changelist-internal.h	82;"	d
 EVENT_DEBUG_MODE_IS_ON	event-internal.h	165;"	d
 EVENT_DEBUG_MODE_IS_ON	event-internal.h	167;"	d
 EVENT_FD	include/event2/event_compat.h	212;"	d
-EVENT_LOG_DEBUG	include/event2/event.h	566;"	d
-EVENT_LOG_ERR	include/event2/event.h	569;"	d
-EVENT_LOG_MSG	include/event2/event.h	567;"	d
-EVENT_LOG_WARN	include/event2/event.h	568;"	d
-EVENT_MAX_PRIORITIES	include/event2/event.h	1090;"	d
-EVENT_SET_MEM_FUNCTIONS_IMPLEMENTED	include/event2/event.h	1181;"	d
+EVENT_LOG_DEBUG	include/event2/event.h	568;"	d
+EVENT_LOG_ERR	include/event2/event.h	571;"	d
+EVENT_LOG_MSG	include/event2/event.h	569;"	d
+EVENT_LOG_WARN	include/event2/event.h	570;"	d
+EVENT_MAX_PRIORITIES	include/event2/event.h	1092;"	d
+EVENT_SET_MEM_FUNCTIONS_IMPLEMENTED	include/event2/event.h	1183;"	d
 EVENT_SIGNAL	include/event2/event_compat.h	213;"	d
 EVHTTP_CON_CLOSEDETECT	http-internal.h	84;"	d
 EVHTTP_CON_INCOMING	http-internal.h	82;"	d
@@ -550,8 +550,8 @@ EVLOCK_UNLOCK	evthread-internal.h	299;"	d
 EVLOCK_UNLOCK	evthread-internal.h	95;"	d
 EVLOCK_UNLOCK2	evthread-internal.h	301;"	d
 EVLOCK_UNLOCK2	evthread-internal.h	346;"	d
-EVLOOP_NONBLOCK	include/event2/event.h	639;"	d
-EVLOOP_ONCE	include/event2/event.h	636;"	d
+EVLOOP_NONBLOCK	include/event2/event.h	641;"	d
+EVLOOP_ONCE	include/event2/event.h	638;"	d
 EVMAP_USE_HT	event-internal.h	107;"	d
 EVRPC_CONTINUE	include/event2/rpc.h	/^	EVRPC_CONTINUE = 0,	\/**< continue processing the rpc *\/$/;"	e	enum:EVRPC_HOOK_RESULT
 EVRPC_GENERATE	include/event2/rpc.h	233;"	d
@@ -738,7 +738,7 @@ EV_CHECK_FMT	log-internal.h	57;"	d
 EV_CLOSURE_NONE	event-internal.h	55;"	d
 EV_CLOSURE_PERSIST	event-internal.h	57;"	d
 EV_CLOSURE_SIGNAL	event-internal.h	56;"	d
-EV_ET	include/event2/event.h	746;"	d
+EV_ET	include/event2/event.h	748;"	d
 EV_FEATURE_ET	include/event2/event.h	/^    EV_FEATURE_ET = 0x01,$/;"	e	enum:event_method_feature
 EV_FEATURE_FDS	include/event2/event.h	/^    EV_FEATURE_FDS = 0x04$/;"	e	enum:event_method_feature
 EV_FEATURE_O1	include/event2/event.h	/^    EV_FEATURE_O1 = 0x02,$/;"	e	enum:event_method_feature
@@ -764,10 +764,10 @@ EV_LIB_WS32	sample/Makefile	/^EV_LIB_WS32 = $/;"	m
 EV_LIB_WS32	test/Makefile	/^EV_LIB_WS32 = $/;"	m
 EV_NORETURN	log-internal.h	34;"	d
 EV_NORETURN	log-internal.h	37;"	d
-EV_PERSIST	include/event2/event.h	744;"	d
+EV_PERSIST	include/event2/event.h	746;"	d
 EV_RATE_LIMIT_MAX	include/event2/bufferevent.h	613;"	d
-EV_READ	include/event2/event.h	733;"	d
-EV_SIGNAL	include/event2/event.h	737;"	d
+EV_READ	include/event2/event.h	735;"	d
+EV_SIGNAL	include/event2/event.h	739;"	d
 EV_SIZE_ARG	util-internal.h	304;"	d
 EV_SIZE_ARG	util-internal.h	313;"	d
 EV_SIZE_ARG	util-internal.h	318;"	d
@@ -791,7 +791,7 @@ EV_SSIZE_MAX	include/event2/util.h	239;"	d
 EV_SSIZE_MAX	include/event2/util.h	242;"	d
 EV_SSIZE_MAX	include/event2/util.h	245;"	d
 EV_SSIZE_MIN	include/event2/util.h	250;"	d
-EV_TIMEOUT	include/event2/event.h	731;"	d
+EV_TIMEOUT	include/event2/event.h	733;"	d
 EV_U64_ARG	util-internal.h	283;"	d
 EV_U64_ARG	util-internal.h	288;"	d
 EV_U64_FMT	util-internal.h	280;"	d
@@ -800,7 +800,7 @@ EV_UINT16_MAX	include/event2/util.h	224;"	d
 EV_UINT32_MAX	include/event2/util.h	221;"	d
 EV_UINT64_MAX	include/event2/util.h	218;"	d
 EV_UINT8_MAX	include/event2/util.h	227;"	d
-EV_WRITE	include/event2/event.h	735;"	d
+EV_WRITE	include/event2/event.h	737;"	d
 EXEEXT	Makefile	/^EXEEXT = $/;"	m
 EXEEXT	include/Makefile	/^EXEEXT = $/;"	m
 EXEEXT	sample/Makefile	/^EXEEXT = $/;"	m
@@ -831,10 +831,10 @@ FDI_HAS_READ	evport.c	102;"	d	file:
 FDI_HAS_WRITE	evport.c	103;"	d	file:
 FDI_TO_SYSEVENTS	evport.c	105;"	d	file:
 FD_SET_ALLOC_SIZE	win32select.c	97;"	d	file:
-FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
-FGREP	include/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
-FGREP	sample/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
-FGREP	test/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	Makefile	/^FGREP = \/usr\/bin\/grep -F$/;"	m
+FGREP	include/Makefile	/^FGREP = \/usr\/bin\/grep -F$/;"	m
+FGREP	sample/Makefile	/^FGREP = \/usr\/bin\/grep -F$/;"	m
+FGREP	test/Makefile	/^FGREP = \/usr\/bin\/grep -F$/;"	m
 FOREACH_RANDOM_ORDER	bufferevent_ratelim.c	473;"	d	file:
 FORK_BREAKS_GCOV	test/regress_main.c	38;"	d	file:
 FORK_BREAKS_GCOV	test/tinytest.c	47;"	d	file:
@@ -855,10 +855,10 @@ GET_SIGNAL_SLOT	evmap.c	159;"	d	file:
 GET_SIGNAL_SLOT_AND_CTOR	evmap.c	166;"	d	file:
 GLOBAL	evthread.c	42;"	d	file:
 GLOBAL	evthread.c	44;"	d	file:
-GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
-GREP	include/Makefile	/^GREP = \/bin\/grep$/;"	m
-GREP	sample/Makefile	/^GREP = \/bin\/grep$/;"	m
-GREP	test/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	Makefile	/^GREP = \/usr\/bin\/grep$/;"	m
+GREP	include/Makefile	/^GREP = \/usr\/bin\/grep$/;"	m
+GREP	sample/Makefile	/^GREP = \/usr\/bin\/grep$/;"	m
+GREP	test/Makefile	/^GREP = \/usr\/bin\/grep$/;"	m
 GROUP_SUSPENDED	bufferevent_ratelim.c	208;"	d	file:
 GZIP_ENV	Makefile	/^GZIP_ENV = --best$/;"	m
 GetAcceptExSockaddrs	iocp-internal.h	/^	GetAcceptExSockaddrsPtr GetAcceptExSockaddrs;$/;"	m	struct:win32_extension_fns	access:public
@@ -1098,8 +1098,8 @@ LIBEVENT_GC_SECTIONS	sample/Makefile	/^LIBEVENT_GC_SECTIONS = $/;"	m
 LIBEVENT_GC_SECTIONS	test/Makefile	/^LIBEVENT_GC_SECTIONS = $/;"	m
 LIBEVENT_LIBS_LA	Makefile	/^LIBEVENT_LIBS_LA = libevent.la libevent_core.la libevent_extra.la \\$/;"	m
 LIBEVENT_PKGCONFIG	Makefile	/^LIBEVENT_PKGCONFIG = libevent.pc $(am__append_2) $(am__append_4)$/;"	m
-LIBEVENT_VERSION	include/event2/event.h	1084;"	d
-LIBEVENT_VERSION_NUMBER	include/event2/event.h	1087;"	d
+LIBEVENT_VERSION	include/event2/event.h	1086;"	d
+LIBEVENT_VERSION_NUMBER	include/event2/event.h	1089;"	d
 LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
 LIBOBJS	include/Makefile	/^LIBOBJS = $/;"	m
 LIBOBJS	sample/Makefile	/^LIBOBJS = $/;"	m
@@ -1143,7 +1143,7 @@ LN_S	include/Makefile	/^LN_S = ln -s$/;"	m
 LN_S	sample/Makefile	/^LN_S = ln -s$/;"	m
 LN_S	test/Makefile	/^LN_S = ln -s$/;"	m
 LOAD	evthread_win32.c	112;"	d	file:
-LOCAL_SOCKETPAIR_AF	event.c	2790;"	d	file:
+LOCAL_SOCKETPAIR_AF	event.c	2797;"	d	file:
 LOCAL_SOCKETPAIR_AF	test/regress.c	418;"	d	file:
 LOCAL_SOCKETPAIR_AF	test/regress_et.c	75;"	d	file:
 LOCAL_SOCKETPAIR_AF	test/regress_et.c	77;"	d	file:
@@ -1164,10 +1164,10 @@ LTLIBRARIES	Makefile	/^LTLIBRARIES = $(lib_LTLIBRARIES) $(noinst_LTLIBRARIES)$/;
 LT_OBJDIR	config.h	355;"	d
 LineCount	event_rpcgen.py	/^    def LineCount(self):$/;"	m	class:Entry	access:public
 MAGIC_EXITCODE	test/tinytest.c	110;"	d	file:
-MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run makeinfo$/;"	m
-MAKEINFO	include/Makefile	/^MAKEINFO = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run makeinfo$/;"	m
-MAKEINFO	sample/Makefile	/^MAKEINFO = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run makeinfo$/;"	m
-MAKEINFO	test/Makefile	/^MAKEINFO = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/missing --run makeinfo$/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run makeinfo$/;"	m
+MAKEINFO	include/Makefile	/^MAKEINFO = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run makeinfo$/;"	m
+MAKEINFO	sample/Makefile	/^MAKEINFO = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run makeinfo$/;"	m
+MAKEINFO	test/Makefile	/^MAKEINFO = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/missing --run makeinfo$/;"	m
 MANIFEST_TOOL	Makefile	/^MANIFEST_TOOL = :$/;"	m
 MANIFEST_TOOL	include/Makefile	/^MANIFEST_TOOL = :$/;"	m
 MANIFEST_TOOL	sample/Makefile	/^MANIFEST_TOOL = :$/;"	m
@@ -1176,9 +1176,9 @@ MANY	test/regress.c	2343;"	d	file:
 MANY	test/regress.c	2397;"	d	file:
 MAP_FAILED	buffer.c	96;"	d	file:
 MAX_CALLS	test/regress_iocp.c	56;"	d	file:
-MAX_COMMON_TIMEOUTS	event.c	1183;"	d	file:
-MAX_DEFERRED	event.c	1388;"	d	file:
-MAX_DEFERRED	event.c	1403;"	d	file:
+MAX_COMMON_TIMEOUTS	event.c	1190;"	d	file:
+MAX_DEFERRED	event.c	1395;"	d	file:
+MAX_DEFERRED	event.c	1410;"	d	file:
 MAX_EPOLL_TIMEOUT_MSEC	epoll.c	105;"	d	file:
 MAX_LABELS	evdns.c	1509;"	d	file:
 MAX_NEVENT	epoll.c	97;"	d	file:
@@ -1195,16 +1195,16 @@ MAX_WSABUFS	buffer_iocp.c	49;"	d	file:
 MAYBE_CORE	Makefile	/^MAYBE_CORE = $/;"	m
 MEMBERSOF	http.c	2578;"	d	file:
 MESSAGE	sample/hello-world.c	/^static const char MESSAGE[] = "Hello, World!\\n";$/;"	v	file:
-MICROSECONDS_MASK	event.c	1096;"	d	file:
+MICROSECONDS_MASK	event.c	1103;"	d	file:
 MIN	evdns.c	130;"	d	file:
 MIN	evdns.c	131;"	d	file:
 MIN	http.c	165;"	d	file:
 MIN_BUFFER_SIZE	evbuffer-internal.h	53;"	d
 MIN_BUFFER_SIZE	evbuffer-internal.h	55;"	d
-MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
-MKDIR_P	include/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
-MKDIR_P	sample/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
-MKDIR_P	test/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	Makefile	/^MKDIR_P = \/usr\/bin\/mkdir -p$/;"	m
+MKDIR_P	include/Makefile	/^MKDIR_P = \/usr\/bin\/mkdir -p$/;"	m
+MKDIR_P	sample/Makefile	/^MKDIR_P = \/usr\/bin\/mkdir -p$/;"	m
+MKDIR_P	test/Makefile	/^MKDIR_P = \/usr\/bin\/mkdir -p$/;"	m
 MORE_DATA_EXPECTED	http-internal.h	/^	MORE_DATA_EXPECTED = 0,$/;"	e	enum:message_read_status
 MSG_ATTACK	test/regress.gen.h	/^  MSG_ATTACK=3,$/;"	e	enum:msg_
 MSG_FROM_NAME	test/regress.gen.h	/^  MSG_FROM_NAME=1,$/;"	e	enum:msg_
@@ -1262,7 +1262,7 @@ NUM_WRITE_IOVEC	buffer.c	1965;"	d	file:
 NUM_WRITE_IOVEC	buffer.c	1967;"	d	file:
 NUM_WRITE_IOVEC	buffer.c	1969;"	d	file:
 NUM_WRITE_IOVEC	buffer.c	1977;"	d	file:
-N_ACTIVE_CALLBACKS	event-internal.h	342;"	d
+N_ACTIVE_CALLBACKS	event-internal.h	341;"	d
 N_CPUS_DEFAULT	event_iocp.c	169;"	d	file:
 N_REQUESTS	test/bench_httpclient.c	/^const int N_REQUESTS = 20000;$/;"	v
 N_SOCKETS_PER_LISTENER	listener.c	796;"	d	file:
@@ -1478,10 +1478,10 @@ RpcGenError	event_rpcgen.py	/^class RpcGenError(Exception):$/;"	c	inherits:Excep
 SCHEDULE_DEFERRED	bufferevent.c	210;"	d	file:
 SCRIPTS	Makefile	/^SCRIPTS = $(dist_bin_SCRIPTS)$/;"	m
 SECONDS	test/regress.c	90;"	d	file:
-SED	Makefile	/^SED = \/bin\/sed$/;"	m
-SED	include/Makefile	/^SED = \/bin\/sed$/;"	m
-SED	sample/Makefile	/^SED = \/bin\/sed$/;"	m
-SED	test/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	Makefile	/^SED = \/usr\/bin\/sed$/;"	m
+SED	include/Makefile	/^SED = \/usr\/bin\/sed$/;"	m
+SED	sample/Makefile	/^SED = \/usr\/bin\/sed$/;"	m
+SED	test/Makefile	/^SED = \/usr\/bin\/sed$/;"	m
 SELECT_ALLOC_SIZE	select.c	66;"	d	file:
 SENDFILE_IS_FREEBSD	buffer.c	105;"	d	file:
 SENDFILE_IS_LINUX	buffer.c	102;"	d	file:
@@ -1494,10 +1494,10 @@ SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
 SET_MAKE	include/Makefile	/^SET_MAKE = $/;"	m
 SET_MAKE	sample/Makefile	/^SET_MAKE = $/;"	m
 SET_MAKE	test/Makefile	/^SET_MAKE = $/;"	m
-SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
-SHELL	include/Makefile	/^SHELL = \/bin\/bash$/;"	m
-SHELL	sample/Makefile	/^SHELL = \/bin\/bash$/;"	m
-SHELL	test/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	include/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	sample/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	test/Makefile	/^SHELL = \/bin\/sh$/;"	m
 SHUT_WR	test/regress.c	93;"	d	file:
 SHUT_WR	test/regress_et.c	71;"	d	file:
 SHUT_WR	test/regress_http.c	491;"	d	file:
@@ -1614,22 +1614,22 @@ Struct	event_rpcgen.py	/^class Struct:$/;"	c	inherits:
 StructCCode	event_rpcgen.py	/^class StructCCode(Struct):$/;"	c	inherits:Struct
 TAILQ_EMPTY	compat/sys/queue.h	301;"	d
 TAILQ_END	compat/sys/queue.h	294;"	d
-TAILQ_END	event-internal.h	319;"	d
+TAILQ_END	event-internal.h	318;"	d
 TAILQ_ENTRY	compat/sys/queue.h	284;"	d
 TAILQ_ENTRY	evdns.c	/^	TAILQ_ENTRY(hosts_entry) next;$/;"	p	struct:hosts_entry	file:	access:public
-TAILQ_ENTRY	include/event2/event_struct.h	130;"	d
+TAILQ_ENTRY	include/event2/event_struct.h	133;"	d
 TAILQ_ENTRY	include/event2/event_struct.h	70;"	d
 TAILQ_ENTRY	include/event2/keyvalq_struct.h	38;"	d
 TAILQ_ENTRY	include/event2/keyvalq_struct.h	69;"	d
 TAILQ_FIRST	compat/sys/queue.h	293;"	d
-TAILQ_FIRST	event-internal.h	316;"	d
+TAILQ_FIRST	event-internal.h	315;"	d
 TAILQ_FOREACH	compat/sys/queue.h	304;"	d
-TAILQ_FOREACH	event-internal.h	326;"	d
+TAILQ_FOREACH	event-internal.h	325;"	d
 TAILQ_FOREACH_REVERSE	compat/sys/queue.h	309;"	d
 TAILQ_HEAD	compat/sys/queue.h	275;"	d
 TAILQ_HEAD	evdns.c	/^	TAILQ_HEAD(hosts_list, hosts_entry) hostsdb;$/;"	p	struct:evdns_base	file:	access:public
 TAILQ_HEAD	evrpc-internal.h	/^	TAILQ_HEAD(evrpc_requestq, evrpc_request_wrapper) (requests);$/;"	p	struct:evrpc_pool	access:public	signature:(evrpc_requestq, evrpc_request_wrapper)
-TAILQ_HEAD	include/event2/event_struct.h	134;"	d
+TAILQ_HEAD	include/event2/event_struct.h	137;"	d
 TAILQ_HEAD	include/event2/event_struct.h	79;"	d
 TAILQ_HEAD	include/event2/keyvalq_struct.h	47;"	d
 TAILQ_HEAD	include/event2/keyvalq_struct.h	73;"	d
@@ -1637,12 +1637,12 @@ TAILQ_HEAD_INITIALIZER	compat/sys/queue.h	281;"	d
 TAILQ_INIT	compat/sys/queue.h	317;"	d
 TAILQ_INSERT_AFTER	compat/sys/queue.h	339;"	d
 TAILQ_INSERT_BEFORE	compat/sys/queue.h	349;"	d
-TAILQ_INSERT_BEFORE	event-internal.h	333;"	d
+TAILQ_INSERT_BEFORE	event-internal.h	332;"	d
 TAILQ_INSERT_HEAD	compat/sys/queue.h	322;"	d
 TAILQ_INSERT_TAIL	compat/sys/queue.h	332;"	d
 TAILQ_LAST	compat/sys/queue.h	296;"	d
 TAILQ_NEXT	compat/sys/queue.h	295;"	d
-TAILQ_NEXT	event-internal.h	322;"	d
+TAILQ_NEXT	event-internal.h	321;"	d
 TAILQ_PREV	compat/sys/queue.h	299;"	d
 TAILQ_REMOVE	compat/sys/queue.h	356;"	d
 TAILQ_REPLACE	compat/sys/queue.h	365;"	d
@@ -1923,10 +1923,10 @@ _EVENT_H_	event.h	28;"	d
 _EVENT_INTERNAL_H_	event-internal.h	28;"	d
 _EVENT_IOCP_INTERNAL_H	iocp-internal.h	28;"	d
 _EVENT_IPV6_INTERNAL_H	ipv6-internal.h	31;"	d
-_EVENT_LOG_DEBUG	include/event2/event.h	574;"	d
-_EVENT_LOG_ERR	include/event2/event.h	577;"	d
-_EVENT_LOG_MSG	include/event2/event.h	575;"	d
-_EVENT_LOG_WARN	include/event2/event.h	576;"	d
+_EVENT_LOG_DEBUG	include/event2/event.h	576;"	d
+_EVENT_LOG_ERR	include/event2/event.h	579;"	d
+_EVENT_LOG_MSG	include/event2/event.h	577;"	d
+_EVENT_LOG_WARN	include/event2/event.h	578;"	d
 _EVENT_LT_OBJDIR	include/event2/event-config.h	368;"	d
 _EVENT_MM_INTERNAL_H	mm-internal.h	27;"	d
 _EVENT_NUMERIC_VERSION	WIN32-Code/event2/event-config.h	280;"	d
@@ -2026,8 +2026,8 @@ _WIN32_WINNT	event_iocp.c	29;"	d	file:
 _WIN32_WINNT	evthread_win32.c	31;"	d	file:
 _WIN32_WINNT	listener.c	34;"	d	file:
 ___REGRESS_RPC_	test/regress.gen.h	6;"	d
-__anon13::code	evutil.c	/^static struct { int code; const char *msg; } windows_socket_errors[] = {$/;"	m	struct:__anon13	file:	access:public
-__anon13::msg	evutil.c	/^static struct { int code; const char *msg; } windows_socket_errors[] = {$/;"	m	struct:__anon13	file:	access:public
+__anon3::code	evutil.c	/^static struct { int code; const char *msg; } windows_socket_errors[] = {$/;"	m	struct:__anon3	file:	access:public
+__anon3::msg	evutil.c	/^static struct { int code; const char *msg; } windows_socket_errors[] = {$/;"	m	struct:__anon3	file:	access:public
 __attribute__	test/tinytest.c	53;"	d	file:
 __cdecl	signal.c	87;"	d	file:
 __func__	sample/signal-test.c	30;"	d	file:
@@ -2180,7 +2180,7 @@ _http_close_detection	test/regress_http.c	/^_http_close_detection(struct basic_t
 _http_connection_test	test/regress_http.c	/^_http_connection_test(struct basic_test_data *data, int persistent)$/;"	f	file:	signature:(struct basic_test_data *data, int persistent)
 _http_incomplete_test	test/regress_http.c	/^_http_incomplete_test(struct basic_test_data *data, int use_timeout)$/;"	f	file:	signature:(struct basic_test_data *data, int use_timeout)
 _http_stream_in_test	test/regress_http.c	/^_http_stream_in_test(struct basic_test_data *data, char const *url,$/;"	f	file:	signature:(struct basic_test_data *data, char const *url, size_t expected_len, char const *expected)
-_internal	include/event2/buffer.h	/^	} _internal;$/;"	m	struct:evbuffer_ptr	typeref:struct:evbuffer_ptr::__anon8	access:public
+_internal	include/event2/buffer.h	/^	} _internal;$/;"	m	struct:evbuffer_ptr	typeref:struct:evbuffer_ptr::__anon13	access:public
 _mm_free_fn	event.c	/^static void (*_mm_free_fn)(void *p) = NULL;$/;"	v	file:
 _mm_malloc_fn	event.c	/^static void *(*_mm_malloc_fn)(size_t sz) = NULL;$/;"	v	file:
 _mm_realloc_fn	event.c	/^static void *(*_mm_realloc_fn)(void *p, size_t sz) = NULL;$/;"	v	file:
@@ -2204,26 +2204,26 @@ _tinytest_set_test_skipped	test/tinytest.h	/^void _tinytest_set_test_skipped(voi
 _tt_want	test/tinytest_macros.h	89;"	d
 _warn_helper	log.c	/^_warn_helper(int severity, const char *errstr, const char *fmt, va_list ap)$/;"	f	file:	signature:(int severity, const char *errstr, const char *fmt, va_list ap)
 _warn_helper	log.c	/^static void _warn_helper(int severity, const char *errstr, const char *fmt,$/;"	p	file:	signature:(int severity, const char *errstr, const char *fmt, va_list ap)
-a	evdns.c	/^		} a;$/;"	m	union:reply::__anon1	typeref:struct:reply::__anon1::__anon2	file:	access:public
+a	evdns.c	/^		} a;$/;"	m	union:reply::__anon4	typeref:struct:reply::__anon4::__anon5	file:	access:public
 a	minheap-internal.h	/^	unsigned n, a;$/;"	m	struct:min_heap	access:public
 a	test/regress_util.c	/^	const char *a;$/;"	m	struct:example_struct	file:	access:public
-aaaa	evdns.c	/^		} aaaa;$/;"	m	union:reply::__anon1	typeref:struct:reply::__anon1::__anon3	file:	access:public
-abs_builddir	Makefile	/^abs_builddir = \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable$/;"	m
-abs_builddir	include/Makefile	/^abs_builddir = \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/include$/;"	m
-abs_builddir	sample/Makefile	/^abs_builddir = \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/sample$/;"	m
-abs_builddir	test/Makefile	/^abs_builddir = \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/test$/;"	m
-abs_srcdir	Makefile	/^abs_srcdir = \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable$/;"	m
-abs_srcdir	include/Makefile	/^abs_srcdir = \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/include$/;"	m
-abs_srcdir	sample/Makefile	/^abs_srcdir = \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/sample$/;"	m
-abs_srcdir	test/Makefile	/^abs_srcdir = \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/test$/;"	m
-abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable$/;"	m
-abs_top_builddir	include/Makefile	/^abs_top_builddir = \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable$/;"	m
-abs_top_builddir	sample/Makefile	/^abs_top_builddir = \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable$/;"	m
-abs_top_builddir	test/Makefile	/^abs_top_builddir = \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable$/;"	m
-abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable$/;"	m
-abs_top_srcdir	include/Makefile	/^abs_top_srcdir = \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable$/;"	m
-abs_top_srcdir	sample/Makefile	/^abs_top_srcdir = \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable$/;"	m
-abs_top_srcdir	test/Makefile	/^abs_top_srcdir = \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable$/;"	m
+aaaa	evdns.c	/^		} aaaa;$/;"	m	union:reply::__anon4	typeref:struct:reply::__anon4::__anon6	file:	access:public
+abs_builddir	Makefile	/^abs_builddir = \/home\/chenhanbing\/workspace\/libevent-note$/;"	m
+abs_builddir	include/Makefile	/^abs_builddir = \/home\/chenhanbing\/workspace\/libevent-note\/include$/;"	m
+abs_builddir	sample/Makefile	/^abs_builddir = \/home\/chenhanbing\/workspace\/libevent-note\/sample$/;"	m
+abs_builddir	test/Makefile	/^abs_builddir = \/home\/chenhanbing\/workspace\/libevent-note\/test$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/chenhanbing\/workspace\/libevent-note$/;"	m
+abs_srcdir	include/Makefile	/^abs_srcdir = \/home\/chenhanbing\/workspace\/libevent-note\/include$/;"	m
+abs_srcdir	sample/Makefile	/^abs_srcdir = \/home\/chenhanbing\/workspace\/libevent-note\/sample$/;"	m
+abs_srcdir	test/Makefile	/^abs_srcdir = \/home\/chenhanbing\/workspace\/libevent-note\/test$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/chenhanbing\/workspace\/libevent-note$/;"	m
+abs_top_builddir	include/Makefile	/^abs_top_builddir = \/home\/chenhanbing\/workspace\/libevent-note$/;"	m
+abs_top_builddir	sample/Makefile	/^abs_top_builddir = \/home\/chenhanbing\/workspace\/libevent-note$/;"	m
+abs_top_builddir	test/Makefile	/^abs_top_builddir = \/home\/chenhanbing\/workspace\/libevent-note$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/chenhanbing\/workspace\/libevent-note$/;"	m
+abs_top_srcdir	include/Makefile	/^abs_top_srcdir = \/home\/chenhanbing\/workspace\/libevent-note$/;"	m
+abs_top_srcdir	sample/Makefile	/^abs_top_srcdir = \/home\/chenhanbing\/workspace\/libevent-note$/;"	m
+abs_top_srcdir	test/Makefile	/^abs_top_srcdir = \/home\/chenhanbing\/workspace\/libevent-note$/;"	m
 ac_ct_AR	Makefile	/^ac_ct_AR = ar$/;"	m
 ac_ct_AR	include/Makefile	/^ac_ct_AR = ar$/;"	m
 ac_ct_AR	sample/Makefile	/^ac_ct_AR = ar$/;"	m
@@ -2283,17 +2283,17 @@ add_cname_to_reply	evdns.c	/^add_cname_to_reply(struct evdns_getaddrinfo_request
 added	event.c	/^	unsigned added : 1;$/;"	m	struct:event_debug_entry	file:	access:public
 additional	evdns.c	/^	struct server_reply_item *additional; \/* linked list of additional RRs *\/$/;"	m	struct:server_request	typeref:struct:server_request::server_reply_item	file:	access:public
 addr	evdns.c	/^	struct sockaddr_storage addr; \/* Where to send the response *\/$/;"	m	struct:server_request	typeref:struct:server_request::sockaddr_storage	file:	access:public
-addr	evdns.c	/^	} addr;$/;"	m	struct:hosts_entry	typeref:union:hosts_entry::__anon5	file:	access:public
+addr	evdns.c	/^	} addr;$/;"	m	struct:hosts_entry	typeref:union:hosts_entry::__anon8	file:	access:public
 addr	test/regress_util.c	/^	const char *addr;$/;"	m	struct:ipv4_entry	file:	access:public
 addr	test/regress_util.c	/^	const char *addr;$/;"	m	struct:ipv6_entry	file:	access:public
 addr	test/regress_util.c	/^	const char *addr;$/;"	m	struct:sa_port_ent	file:	access:public
 addrbuf	listener.c	/^	char addrbuf[1];$/;"	m	struct:accepting_socket	file:	access:public
-addrcount	evdns.c	/^			u32 addrcount;$/;"	m	struct:reply::__anon1::__anon2	file:	access:public
-addrcount	evdns.c	/^			u32 addrcount;$/;"	m	struct:reply::__anon1::__anon3	file:	access:public
+addrcount	evdns.c	/^			u32 addrcount;$/;"	m	struct:reply::__anon4::__anon5	file:	access:public
+addrcount	evdns.c	/^			u32 addrcount;$/;"	m	struct:reply::__anon4::__anon6	file:	access:public
 address	evdns.c	/^	struct sockaddr_storage address;$/;"	m	struct:nameserver	typeref:struct:nameserver::sockaddr_storage	file:	access:public
 address	http-internal.h	/^	char *address;			\/* address to connect to *\/$/;"	m	struct:evhttp_connection	access:public
-addresses	evdns.c	/^			struct in6_addr addresses[MAX_V6_ADDRS];$/;"	m	struct:reply::__anon1::__anon3	typeref:struct:reply::__anon1::__anon3::in6_addr	file:	access:public
-addresses	evdns.c	/^			u32 addresses[MAX_V4_ADDRS];$/;"	m	struct:reply::__anon1::__anon2	file:	access:public
+addresses	evdns.c	/^			struct in6_addr addresses[MAX_V6_ADDRS];$/;"	m	struct:reply::__anon4::__anon6	typeref:struct:reply::__anon4::__anon6::in6_addr	file:	access:public
+addresses	evdns.c	/^			u32 addresses[MAX_V4_ADDRS];$/;"	m	struct:reply::__anon4::__anon5	file:	access:public
 addrinfo_from_hostent	evutil.c	/^addrinfo_from_hostent(const struct hostent *ent,$/;"	f	file:	signature:(const struct hostent *ent, int port, const struct evutil_addrinfo *hints)
 addrlen	evdns.c	/^	ev_socklen_t addrlen; \/* length of addr *\/$/;"	m	struct:server_request	file:	access:public
 addrlen	evdns.c	/^	ev_socklen_t addrlen;$/;"	m	struct:nameserver	file:	access:public
@@ -2511,6 +2511,8 @@ as_fn_arith	config.status	/^  as_fn_arith ()$/;"	f
 as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
 as_fn_error	config.status	/^as_fn_error ()$/;"	f
 as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_executable_p	config.status	/^as_fn_executable_p ()$/;"	f
+as_fn_executable_p	configure	/^as_fn_executable_p ()$/;"	f
 as_fn_exit	config.status	/^as_fn_exit ()$/;"	f
 as_fn_exit	configure	/^as_fn_exit ()$/;"	f
 as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
@@ -3036,7 +3038,7 @@ cancel_gai_cb	test/regress_dns.c	/^cancel_gai_cb(evutil_socket_t fd, short what,
 canceled	test/regress_dns.c	/^	int canceled;$/;"	m	struct:gaic_request_status	file:	access:public
 cases	test/tinytest.h	/^	struct testcase_t *cases; \/** Array, ending with END_OF_TESTCASES *\/$/;"	m	struct:testgroup_t	typeref:struct:testgroup_t::testcase_t	access:public
 cb	defer-internal.h	/^	deferred_cb_fn cb;$/;"	m	struct:deferred_cb	access:public
-cb	evbuffer-internal.h	/^	} cb;$/;"	m	struct:evbuffer_cb_entry	typeref:union:evbuffer_cb_entry::__anon6	access:public
+cb	evbuffer-internal.h	/^	} cb;$/;"	m	struct:evbuffer_cb_entry	typeref:union:evbuffer_cb_entry::__anon1	access:public
 cb	event.c	/^	void (*cb)(evutil_socket_t, short, void *);$/;"	m	struct:event_once	file:	access:public
 cb	evrpc-internal.h	/^	void (*cb)(struct evrpc_status*, void *request, void *reply, void *arg);$/;"	m	struct:evrpc_request_wrapper	access:public
 cb	evrpc-internal.h	/^	void (*cb)(void *, enum EVRPC_HOOK_RESULT);$/;"	m	struct:evrpc_hook_ctx	access:public
@@ -3050,9 +3052,9 @@ cb_arg	evrpc-internal.h	/^	void *cb_arg;$/;"	m	struct:evrpc_request_wrapper	acce
 cb_arg	http-internal.h	/^	void *cb_arg;$/;"	m	struct:evhttp_connection	access:public
 cb_arg	include/event2/http_struct.h	/^	void *cb_arg;$/;"	m	struct:evhttp_request	access:public
 cb_arg	include/event2/rpc_struct.h	/^	void *cb_arg;$/;"	m	struct:evrpc	access:public
-cb_func	evbuffer-internal.h	/^		evbuffer_cb_func cb_func;$/;"	m	union:evbuffer_cb_entry::__anon6	access:public
+cb_func	evbuffer-internal.h	/^		evbuffer_cb_func cb_func;$/;"	m	union:evbuffer_cb_entry::__anon1	access:public
 cb_next	defer-internal.h	/^	TAILQ_ENTRY (deferred_cb) cb_next;$/;"	m	struct:deferred_cb	access:public
-cb_obsolete	evbuffer-internal.h	/^		evbuffer_cb cb_obsolete;$/;"	m	union:evbuffer_cb_entry::__anon6	access:public
+cb_obsolete	evbuffer-internal.h	/^		evbuffer_cb cb_obsolete;$/;"	m	union:evbuffer_cb_entry::__anon1	access:public
 cb_queue	evbuffer-internal.h	/^	struct deferred_cb_queue *cb_queue;$/;"	m	struct:evbuffer	typeref:struct:evbuffer::deferred_cb_queue	access:public
 cbarg	evbuffer-internal.h	/^	void *cbarg;$/;"	m	struct:evbuffer_cb_entry	access:public
 cbarg	http-internal.h	/^	void *cbarg;$/;"	m	struct:evhttp_cb	access:public
@@ -3072,7 +3074,7 @@ cfg_stddev_tolerance	test/test-ratelim.c	/^static int cfg_stddev_tolerance = -1;
 cfg_tick	test/test-ratelim.c	/^static struct timeval cfg_tick = { 0, 500*1000 };$/;"	v	typeref:struct:timeval	file:
 cfg_tick_msec	test/test-ratelim.c	/^static int cfg_tick_msec = 1000;$/;"	v	file:
 cfg_verbose	test/test-ratelim.c	/^static int cfg_verbose = 0;$/;"	v	file:
-chain	include/event2/buffer.h	/^		void *chain;$/;"	m	struct:evbuffer_ptr::__anon8	access:public
+chain	include/event2/buffer.h	/^		void *chain;$/;"	m	struct:evbuffer_ptr::__anon13	access:public
 change_to_string	epoll.c	/^change_to_string(int change)$/;"	f	file:	signature:(int change)
 changelist	event-internal.h	/^	struct event_changelist changelist;$/;"	m	struct:event_base	typeref:struct:event_base::event_changelist	access:public
 changes	devpoll.c	/^	struct pollfd *changes;$/;"	m	struct:devpollop	typeref:struct:devpollop::pollfd	file:	access:public
@@ -3125,7 +3127,7 @@ cname_result	evdns.c	/^	char *cname_result;$/;"	m	struct:evdns_getaddrinfo_reque
 cnt_free	test/regress_dns.c	/^cnt_free(void *ptr)$/;"	f	file:	signature:(void *ptr)
 cnt_malloc	test/regress_dns.c	/^cnt_malloc(size_t sz)$/;"	f	file:	signature:(size_t sz)
 cnt_realloc	test/regress_dns.c	/^cnt_realloc(void *old, size_t sz)$/;"	f	file:	signature:(void *old, size_t sz)
-code	evutil.c	/^static struct { int code; const char *msg; } windows_socket_errors[] = {$/;"	m	struct:__anon13	file:	access:public
+code	evutil.c	/^static struct { int code; const char *msg; } windows_socket_errors[] = {$/;"	m	struct:__anon3	file:	access:public
 combined_read_cb	test/regress.c	/^combined_read_cb(evutil_socket_t fd, short event, void *arg)$/;"	f	file:	signature:(evutil_socket_t fd, short event, void *arg)
 combined_write_cb	test/regress.c	/^combined_write_cb(evutil_socket_t fd, short event, void *arg)$/;"	f	file:	signature:(evutil_socket_t fd, short event, void *arg)
 commandname	test/tinytest.c	/^static char commandname[MAX_PATH+1];$/;"	v	file:
@@ -3211,7 +3213,7 @@ current_event_waiters	event-internal.h	/^	int current_event_waiters;$/;"	m	struc
 current_req	evdns.c	/^	struct request *current_req;$/;"	m	struct:evdns_request	typeref:struct:evdns_request::request	file:	access:public
 current_req	test/regress_dns.c	/^static struct evdns_request *current_req = NULL;$/;"	v	typeref:struct:evdns_request	file:
 data	evdns.c	/^	void *data; \/* The contents of the RR *\/$/;"	m	struct:server_reply_item	file:	access:public
-data	evdns.c	/^	} data;$/;"	m	struct:reply	typeref:union:reply::__anon1	file:	access:public
+data	evdns.c	/^	} data;$/;"	m	struct:reply	typeref:union:reply::__anon4	file:	access:public
 data	evrpc-internal.h	/^	void *data;$/;"	m	struct:evrpc_meta	access:public
 data_size	evrpc-internal.h	/^	size_t data_size;$/;"	m	struct:evrpc_meta	access:public
 datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
@@ -3409,7 +3411,7 @@ encode_int_internal	event_tagging.c	/^encode_int_internal(ev_uint8_t *data, ev_u
 end_of_authority	http.c	/^end_of_authority(char *cp)$/;"	f	file:	signature:(char *cp)
 end_of_cpath	http.c	4499;"	d	file:
 end_of_path	http.c	/^end_of_path(char *cp, enum uri_part part, unsigned flags)$/;"	f	file:	signature:(char *cp, enum uri_part part, unsigned flags)
-ent	evmap.c	/^	} ent;$/;"	m	struct:event_map_entry	typeref:union:event_map_entry::__anon7	file:	access:public
+ent	evmap.c	/^	} ent;$/;"	m	struct:event_map_entry	typeref:union:event_map_entry::__anon14	file:	access:public
 entries	event-internal.h	/^	TAILQ_HEAD(event_configq, event_config_entry) entries;$/;"	m	struct:event_config	access:public
 entries	event-internal.h	/^	void **entries;$/;"	m	struct:event_signal_map	access:public
 entry_status	test/regress_util.c	/^enum entry_status { NORMAL, CANONICAL, BAD };$/;"	g	file:
@@ -3461,15 +3463,15 @@ ev	test/regress.c	/^	struct event ev;$/;"	m	struct:both	typeref:struct:both::eve
 ev	test/regress.c	/^	struct event ev;$/;"	m	struct:common_timeout_info	typeref:struct:common_timeout_info::event	file:	access:public
 ev	test/regress.c	/^	struct event ev;$/;"	m	struct:test_pri_event	typeref:struct:test_pri_event::event	file:	access:public
 ev	test/test-time.c	/^struct event *ev[NEVENT];$/;"	v	typeref:struct:event
-ev_active_next	include/event2/event_struct.h	/^	TAILQ_ENTRY(event) ev_active_next;$/;"	m	struct:event	access:public
+ev_active_next	include/event2/event_struct.h	/^	TAILQ_ENTRY(event) ev_active_next;                            \/\/ 就绪事件链表$/;"	m	struct:event	access:public
 ev_arc4random_buf	evutil_rand.c	/^ev_arc4random_buf(void *buf, size_t n)$/;"	f	file:	signature:(void *buf, size_t n)
 ev_arg	include/event2/event_struct.h	/^	void *ev_arg;$/;"	m	struct:event	access:public
 ev_base	include/event2/bufferevent_struct.h	/^	struct event_base *ev_base;$/;"	m	struct:bufferevent	typeref:struct:bufferevent::event_base	access:public
 ev_base	include/event2/event_struct.h	/^	struct event_base *ev_base;$/;"	m	struct:event	typeref:struct:event::event_base	access:public
-ev_callback	include/event2/event_struct.h	/^	void (*ev_callback)(evutil_socket_t, short, void *arg);$/;"	m	struct:event	access:public
+ev_callback	include/event2/event_struct.h	/^	void (*ev_callback)(evutil_socket_t, short, void *arg);   \/\/ 事件的回调函数$/;"	m	struct:event	access:public
 ev_closure	include/event2/event_struct.h	/^	ev_uint8_t ev_closure;$/;"	m	struct:event	access:public
-ev_events	include/event2/event_struct.h	/^	short ev_events;$/;"	m	struct:event	access:public
-ev_fd	include/event2/event_struct.h	/^	evutil_socket_t ev_fd;$/;"	m	struct:event	access:public
+ev_events	include/event2/event_struct.h	/^	short ev_events;    \/\/ 触发信号，比如EV_READ | EV_WRITE$/;"	m	struct:event	access:public
+ev_fd	include/event2/event_struct.h	/^	evutil_socket_t ev_fd;                                        \/\/ 对于I\/O事件，代表文件描述符$/;"	m	struct:event	access:public
 ev_flags	include/event2/event_struct.h	/^	short ev_flags;$/;"	m	struct:event	access:public
 ev_int16_t	include/event2/util.h	146;"	d
 ev_int16_t	include/event2/util.h	149;"	d
@@ -3500,7 +3502,7 @@ ev_io_timeout	event-internal.h	48;"	d
 ev_n_signals_added	evsignal-internal.h	/^	int ev_n_signals_added;$/;"	m	struct:evsig_info	access:public
 ev_ncalls	event-internal.h	51;"	d
 ev_ncalls	include/event2/event_struct.h	/^			short ev_ncalls;$/;"	m	struct:event::__anon10::__anon12	access:public
-ev_next	include/event2/event_struct.h	/^	TAILQ_ENTRY(event) ev_next;$/;"	m	struct:event	access:public
+ev_next	include/event2/event_struct.h	/^	TAILQ_ENTRY(event) ev_next;                                   \/\/ 已注册的事件链表$/;"	m	struct:event	access:public
 ev_next_with_common_timeout	include/event2/event_struct.h	/^		TAILQ_ENTRY(event) ev_next_with_common_timeout;$/;"	m	union:event::__anon9	access:public
 ev_off_t	include/event2/util.h	197;"	d
 ev_off_t	include/event2/util.h	199;"	d
@@ -3523,7 +3525,7 @@ ev_ssize_t	include/event2/util.h	191;"	d
 ev_ssize_t	include/event2/util.h	193;"	d
 ev_timeout	evrpc-internal.h	/^	struct event ev_timeout;$/;"	m	struct:evrpc_request_wrapper	typeref:struct:evrpc_request_wrapper::event	access:public
 ev_timeout	include/event2/event_struct.h	/^			struct timeval ev_timeout;$/;"	m	struct:event::__anon10::__anon11	typeref:struct:event::__anon10::__anon11::timeval	access:public
-ev_timeout	include/event2/event_struct.h	/^	struct timeval ev_timeout;$/;"	m	struct:event	typeref:struct:event::timeval	access:public
+ev_timeout	include/event2/event_struct.h	/^	struct timeval ev_timeout;      \/\/ 保存事件的超时时间$/;"	m	struct:event	typeref:struct:event::timeval	access:public
 ev_timeout_pos	include/event2/event_struct.h	/^	} ev_timeout_pos;$/;"	m	struct:event	typeref:union:event::__anon9	access:public
 ev_token_bucket	ratelim-internal.h	/^struct ev_token_bucket {$/;"	s
 ev_token_bucket::last_updated	ratelim-internal.h	/^	ev_uint32_t last_updated;$/;"	m	struct:ev_token_bucket	access:public
@@ -3571,7 +3573,7 @@ ev_uintptr_t	include/event2/util.h	178;"	d
 ev_uintptr_t	include/event2/util.h	181;"	d
 ev_uintptr_t	include/event2/util.h	184;"	d
 ev_write	include/event2/bufferevent_struct.h	/^	struct event ev_write;$/;"	m	struct:bufferevent	typeref:struct:bufferevent::event	access:public
-evbase	event-internal.h	/^	void *evbase;$/;"	m	struct:event_base	access:public
+evbase	event-internal.h	/^	void *evbase;                                       \/\/ I\/O函数集的全局指针$/;"	m	struct:event_base	access:public
 evbuffer	evbuffer-internal.h	/^struct evbuffer {$/;"	s
 evbuffer	include/event2/buffer.h	/^struct evbuffer$/;"	s
 evbuffer::callbacks	evbuffer-internal.h	/^	TAILQ_HEAD(evbuffer_cb_queue, evbuffer_cb_entry) callbacks;$/;"	m	struct:evbuffer	access:public
@@ -3610,9 +3612,9 @@ evbuffer_cb	include/event2/buffer_compat.h	/^typedef void (*evbuffer_cb)(struct 
 evbuffer_cb_clear_flags	buffer.c	/^evbuffer_cb_clear_flags(struct evbuffer *buffer,$/;"	f	signature:(struct evbuffer *buffer, struct evbuffer_cb_entry *cb, ev_uint32_t flags)
 evbuffer_cb_clear_flags	include/event2/buffer.h	/^int evbuffer_cb_clear_flags(struct evbuffer *buffer,$/;"	p	signature:(struct evbuffer *buffer, struct evbuffer_cb_entry *cb, ev_uint32_t flags)
 evbuffer_cb_entry	evbuffer-internal.h	/^struct evbuffer_cb_entry {$/;"	s
-evbuffer_cb_entry::__anon6::cb_func	evbuffer-internal.h	/^		evbuffer_cb_func cb_func;$/;"	m	union:evbuffer_cb_entry::__anon6	access:public
-evbuffer_cb_entry::__anon6::cb_obsolete	evbuffer-internal.h	/^		evbuffer_cb cb_obsolete;$/;"	m	union:evbuffer_cb_entry::__anon6	access:public
-evbuffer_cb_entry::cb	evbuffer-internal.h	/^	} cb;$/;"	m	struct:evbuffer_cb_entry	typeref:union:evbuffer_cb_entry::__anon6	access:public
+evbuffer_cb_entry::__anon1::cb_func	evbuffer-internal.h	/^		evbuffer_cb_func cb_func;$/;"	m	union:evbuffer_cb_entry::__anon1	access:public
+evbuffer_cb_entry::__anon1::cb_obsolete	evbuffer-internal.h	/^		evbuffer_cb cb_obsolete;$/;"	m	union:evbuffer_cb_entry::__anon1	access:public
+evbuffer_cb_entry::cb	evbuffer-internal.h	/^	} cb;$/;"	m	struct:evbuffer_cb_entry	typeref:union:evbuffer_cb_entry::__anon1	access:public
 evbuffer_cb_entry::cbarg	evbuffer-internal.h	/^	void *cbarg;$/;"	m	struct:evbuffer_cb_entry	access:public
 evbuffer_cb_entry::flags	evbuffer-internal.h	/^	ev_uint32_t flags;$/;"	m	struct:evbuffer_cb_entry	access:public
 evbuffer_cb_entry::next	evbuffer-internal.h	/^	TAILQ_ENTRY(evbuffer_cb_entry) next;$/;"	m	struct:evbuffer_cb_entry	access:public
@@ -3716,9 +3718,9 @@ evbuffer_prepend	include/event2/buffer.h	/^int evbuffer_prepend(struct evbuffer 
 evbuffer_prepend_buffer	buffer.c	/^evbuffer_prepend_buffer(struct evbuffer *outbuf, struct evbuffer *inbuf)$/;"	f	signature:(struct evbuffer *outbuf, struct evbuffer *inbuf)
 evbuffer_prepend_buffer	include/event2/buffer.h	/^int evbuffer_prepend_buffer(struct evbuffer *dst, struct evbuffer* src);$/;"	p	signature:(struct evbuffer *dst, struct evbuffer* src)
 evbuffer_ptr	include/event2/buffer.h	/^struct evbuffer_ptr {$/;"	s
-evbuffer_ptr::__anon8::chain	include/event2/buffer.h	/^		void *chain;$/;"	m	struct:evbuffer_ptr::__anon8	access:public
-evbuffer_ptr::__anon8::pos_in_chain	include/event2/buffer.h	/^		size_t pos_in_chain;$/;"	m	struct:evbuffer_ptr::__anon8	access:public
-evbuffer_ptr::_internal	include/event2/buffer.h	/^	} _internal;$/;"	m	struct:evbuffer_ptr	typeref:struct:evbuffer_ptr::__anon8	access:public
+evbuffer_ptr::__anon13::chain	include/event2/buffer.h	/^		void *chain;$/;"	m	struct:evbuffer_ptr::__anon13	access:public
+evbuffer_ptr::__anon13::pos_in_chain	include/event2/buffer.h	/^		size_t pos_in_chain;$/;"	m	struct:evbuffer_ptr::__anon13	access:public
+evbuffer_ptr::_internal	include/event2/buffer.h	/^	} _internal;$/;"	m	struct:evbuffer_ptr	typeref:struct:evbuffer_ptr::__anon13	access:public
 evbuffer_ptr::pos	include/event2/buffer.h	/^	ev_ssize_t pos;$/;"	m	struct:evbuffer_ptr	access:public
 evbuffer_ptr_how	include/event2/buffer.h	/^enum evbuffer_ptr_how {$/;"	g
 evbuffer_ptr_memcmp	buffer.c	/^evbuffer_ptr_memcmp(const struct evbuffer *buf, const struct evbuffer_ptr *pos,$/;"	f	file:	signature:(const struct evbuffer *buf, const struct evbuffer_ptr *pos, const char *mem, size_t len)
@@ -4066,20 +4068,20 @@ event::__anon10::__anon12::ev_signal_next	include/event2/event_struct.h	/^			TAI
 event::__anon10::ev_io	include/event2/event_struct.h	/^		} ev_io;$/;"	m	union:event::__anon10	typeref:struct:event::__anon10::__anon11	access:public
 event::__anon10::ev_signal	include/event2/event_struct.h	/^		} ev_signal;$/;"	m	union:event::__anon10	typeref:struct:event::__anon10::__anon12	access:public
 event::__anon9::ev_next_with_common_timeout	include/event2/event_struct.h	/^		TAILQ_ENTRY(event) ev_next_with_common_timeout;$/;"	m	union:event::__anon9	access:public
-event::__anon9::min_heap_idx	include/event2/event_struct.h	/^		int min_heap_idx;$/;"	m	union:event::__anon9	access:public
+event::__anon9::min_heap_idx	include/event2/event_struct.h	/^		int min_heap_idx;                                         \/\/ 该时间在event定时最小堆的位置$/;"	m	union:event::__anon9	access:public
 event::_ev	include/event2/event_struct.h	/^	} _ev;$/;"	m	struct:event	typeref:union:event::__anon10	access:public
-event::ev_active_next	include/event2/event_struct.h	/^	TAILQ_ENTRY(event) ev_active_next;$/;"	m	struct:event	access:public
+event::ev_active_next	include/event2/event_struct.h	/^	TAILQ_ENTRY(event) ev_active_next;                            \/\/ 就绪事件链表$/;"	m	struct:event	access:public
 event::ev_arg	include/event2/event_struct.h	/^	void *ev_arg;$/;"	m	struct:event	access:public
 event::ev_base	include/event2/event_struct.h	/^	struct event_base *ev_base;$/;"	m	struct:event	typeref:struct:event::event_base	access:public
-event::ev_callback	include/event2/event_struct.h	/^	void (*ev_callback)(evutil_socket_t, short, void *arg);$/;"	m	struct:event	access:public
+event::ev_callback	include/event2/event_struct.h	/^	void (*ev_callback)(evutil_socket_t, short, void *arg);   \/\/ 事件的回调函数$/;"	m	struct:event	access:public
 event::ev_closure	include/event2/event_struct.h	/^	ev_uint8_t ev_closure;$/;"	m	struct:event	access:public
-event::ev_events	include/event2/event_struct.h	/^	short ev_events;$/;"	m	struct:event	access:public
-event::ev_fd	include/event2/event_struct.h	/^	evutil_socket_t ev_fd;$/;"	m	struct:event	access:public
+event::ev_events	include/event2/event_struct.h	/^	short ev_events;    \/\/ 触发信号，比如EV_READ | EV_WRITE$/;"	m	struct:event	access:public
+event::ev_fd	include/event2/event_struct.h	/^	evutil_socket_t ev_fd;                                        \/\/ 对于I\/O事件，代表文件描述符$/;"	m	struct:event	access:public
 event::ev_flags	include/event2/event_struct.h	/^	short ev_flags;$/;"	m	struct:event	access:public
-event::ev_next	include/event2/event_struct.h	/^	TAILQ_ENTRY(event) ev_next;$/;"	m	struct:event	access:public
+event::ev_next	include/event2/event_struct.h	/^	TAILQ_ENTRY(event) ev_next;                                   \/\/ 已注册的事件链表$/;"	m	struct:event	access:public
 event::ev_pri	include/event2/event_struct.h	/^	ev_uint8_t ev_pri;	\/* smaller numbers are higher priority *\/$/;"	m	struct:event	access:public
 event::ev_res	include/event2/event_struct.h	/^	short ev_res;		\/* result passed to event callback *\/$/;"	m	struct:event	access:public
-event::ev_timeout	include/event2/event_struct.h	/^	struct timeval ev_timeout;$/;"	m	struct:event	typeref:struct:event::timeval	access:public
+event::ev_timeout	include/event2/event_struct.h	/^	struct timeval ev_timeout;      \/\/ 保存事件的超时时间$/;"	m	struct:event	typeref:struct:event::timeval	access:public
 event::ev_timeout_pos	include/event2/event_struct.h	/^	} ev_timeout_pos;$/;"	m	struct:event	typeref:union:event::__anon9	access:public
 event_active	event.c	/^event_active(struct event *ev, int res, short ncalls)$/;"	f	signature:(struct event *ev, int res, short ncalls)
 event_active	include/event2/event.h	/^void event_active(struct event *ev, int res, short ncalls);$/;"	p	signature:(struct event *ev, int res, short ncalls)
@@ -4104,7 +4106,7 @@ event_base::current_event	event-internal.h	/^	struct event *current_event;$/;"	m
 event_base::current_event_cond	event-internal.h	/^	void *current_event_cond;$/;"	m	struct:event_base	access:public
 event_base::current_event_waiters	event-internal.h	/^	int current_event_waiters;$/;"	m	struct:event_base	access:public
 event_base::defer_queue	event-internal.h	/^	struct deferred_cb_queue defer_queue;$/;"	m	struct:event_base	typeref:struct:event_base::deferred_cb_queue	access:public
-event_base::evbase	event-internal.h	/^	void *evbase;$/;"	m	struct:event_base	access:public
+event_base::evbase	event-internal.h	/^	void *evbase;                                       \/\/ I\/O函数集的全局指针$/;"	m	struct:event_base	access:public
 event_base::event_break	event-internal.h	/^	int event_break;$/;"	m	struct:event_base	access:public
 event_base::event_continue	event-internal.h	/^	int event_continue;$/;"	m	struct:event_base	access:public
 event_base::event_count	event-internal.h	/^	int event_count;$/;"	m	struct:event_base	access:public
@@ -4113,7 +4115,7 @@ event_base::event_gotterm	event-internal.h	/^	int event_gotterm;$/;"	m	struct:ev
 event_base::event_running_priority	event-internal.h	/^	int event_running_priority;$/;"	m	struct:event_base	access:public
 event_base::event_tv	event-internal.h	/^	struct timeval event_tv;$/;"	m	struct:event_base	typeref:struct:event_base::timeval	access:public
 event_base::eventqueue	event-internal.h	/^	struct event_list eventqueue;$/;"	m	struct:event_base	typeref:struct:event_base::event_list	access:public
-event_base::evsel	event-internal.h	/^	const struct eventop *evsel;$/;"	m	struct:event_base	typeref:struct:event_base::eventop	access:public
+event_base::evsel	event-internal.h	/^	const struct eventop *evsel;                        \/\/ I\/O函数的后端实现(即跨平台选择，在linux上为epoll实现)$/;"	m	struct:event_base	typeref:struct:event_base::eventop	access:public
 event_base::evsigsel	event-internal.h	/^	const struct eventop *evsigsel;$/;"	m	struct:event_base	typeref:struct:event_base::eventop	access:public
 event_base::flags	event-internal.h	/^	enum event_base_config_flag flags;$/;"	m	struct:event_base	typeref:enum:event_base::event_base_config_flag	access:public
 event_base::io	event-internal.h	/^	struct event_io_map io;$/;"	m	struct:event_base	typeref:struct:event_base::event_io_map	access:public
@@ -4286,7 +4288,7 @@ event_get_fd	event.c	/^event_get_fd(const struct event *ev)$/;"	f	signature:(con
 event_get_fd	include/event2/event.h	/^evutil_socket_t event_get_fd(const struct event *ev);$/;"	p	signature:(const struct event *ev)
 event_get_method	event.c	/^event_get_method(void)$/;"	f	signature:(void)
 event_get_method	include/event2/event_compat.h	/^const char *event_get_method(void);$/;"	p	signature:(void)
-event_get_signal	include/event2/event.h	1005;"	d
+event_get_signal	include/event2/event.h	1007;"	d
 event_get_struct_event_size	event.c	/^event_get_struct_event_size(void)$/;"	f	signature:(void)
 event_get_struct_event_size	include/event2/event.h	/^size_t event_get_struct_event_size(void);$/;"	p	signature:(void)
 event_get_supported_methods	event.c	/^event_get_supported_methods(void)$/;"	f	signature:(void)
@@ -4350,8 +4352,8 @@ event_loopexit	include/event2/event_compat.h	/^int event_loopexit(const struct t
 event_loopexit_cb	event.c	/^event_loopexit_cb(evutil_socket_t fd, short what, void *arg)$/;"	f	file:	signature:(evutil_socket_t fd, short what, void *arg)
 event_map_entry	evmap.c	/^struct event_map_entry {$/;"	s	file:
 event_map_entry::HT_ENTRY	evmap.c	/^	HT_ENTRY(event_map_entry) map_node;$/;"	p	struct:event_map_entry	file:	access:public
-event_map_entry::__anon7::evmap_io	evmap.c	/^		struct evmap_io evmap_io;$/;"	m	union:event_map_entry::__anon7	typeref:struct:event_map_entry::__anon7::evmap_io	file:	access:public
-event_map_entry::ent	evmap.c	/^	} ent;$/;"	m	struct:event_map_entry	typeref:union:event_map_entry::__anon7	file:	access:public
+event_map_entry::__anon14::evmap_io	evmap.c	/^		struct evmap_io evmap_io;$/;"	m	union:event_map_entry::__anon14	typeref:struct:event_map_entry::__anon14::evmap_io	file:	access:public
+event_map_entry::ent	evmap.c	/^	} ent;$/;"	m	struct:event_map_entry	typeref:union:event_map_entry::__anon14	file:	access:public
 event_map_entry::fd	evmap.c	/^	evutil_socket_t fd;$/;"	m	struct:event_map_entry	file:	access:public
 event_method_feature	include/event2/event.h	/^enum event_method_feature {$/;"	g
 event_mm_calloc_	event.c	/^event_mm_calloc_(size_t count, size_t size)$/;"	f	signature:(size_t count, size_t size)
@@ -4821,7 +4823,7 @@ evkeyval::next	include/event2/keyvalq_struct.h	/^	TAILQ_ENTRY(evkeyval) next;$/;
 evkeyval::value	include/event2/keyvalq_struct.h	/^	char *value;$/;"	m	struct:evkeyval	access:public
 evmap_check_integrity	evmap-internal.h	/^void evmap_check_integrity(struct event_base *base);$/;"	p	signature:(struct event_base *base)
 evmap_check_integrity	evmap.c	/^evmap_check_integrity(struct event_base *base)$/;"	f	signature:(struct event_base *base)
-evmap_io	evmap.c	/^		struct evmap_io evmap_io;$/;"	m	union:event_map_entry::__anon7	typeref:struct:event_map_entry::__anon7::evmap_io	file:	access:public
+evmap_io	evmap.c	/^		struct evmap_io evmap_io;$/;"	m	union:event_map_entry::__anon14	typeref:struct:event_map_entry::__anon14::evmap_io	file:	access:public
 evmap_io	evmap.c	/^struct evmap_io {$/;"	s	file:
 evmap_io::events	evmap.c	/^	struct event_list events;$/;"	m	struct:evmap_io	typeref:struct:evmap_io::event_list	file:	access:public
 evmap_io::nread	evmap.c	/^	ev_uint16_t nread;$/;"	m	struct:evmap_io	file:	access:public
@@ -5021,7 +5023,7 @@ evrpc_status::error	include/event2/rpc_struct.h	/^	int error;$/;"	m	struct:evrpc
 evrpc_status::http_req	include/event2/rpc_struct.h	/^	struct evhttp_request *http_req;$/;"	m	struct:evrpc_status	typeref:struct:evrpc_status::evhttp_request	access:public
 evrpc_unregister_rpc	evrpc.c	/^evrpc_unregister_rpc(struct evrpc_base *base, const char *name)$/;"	f	signature:(struct evrpc_base *base, const char *name)
 evrpc_unregister_rpc	include/event2/rpc.h	/^int evrpc_unregister_rpc(struct evrpc_base *base, const char *name);$/;"	p	signature:(struct evrpc_base *base, const char *name)
-evsel	event-internal.h	/^	const struct eventop *evsel;$/;"	m	struct:event_base	typeref:struct:event_base::eventop	access:public
+evsel	event-internal.h	/^	const struct eventop *evsel;                        \/\/ I\/O函数的后端实现(即跨平台选择，在linux上为epoll实现)$/;"	m	struct:event_base	typeref:struct:event_base::eventop	access:public
 evsig_add	signal.c	/^evsig_add(struct event_base *base, evutil_socket_t evsignal, short old, short events, void *p)$/;"	f	file:	signature:(struct event_base *base, evutil_socket_t evsignal, short old, short events, void *p)
 evsig_add	signal.c	/^static int evsig_add(struct event_base *, evutil_socket_t, short, short, void *);$/;"	p	file:	signature:(struct event_base *, evutil_socket_t, short, short, void *)
 evsig_base	signal.c	/^static struct event_base *evsig_base = NULL;$/;"	v	typeref:struct:event_base	file:
@@ -5049,12 +5051,12 @@ evsig_init	evsignal-internal.h	/^int evsig_init(struct event_base *);$/;"	p	sign
 evsig_init	signal.c	/^evsig_init(struct event_base *base)$/;"	f	signature:(struct event_base *base)
 evsig_set_base	evsignal-internal.h	/^void evsig_set_base(struct event_base *base);$/;"	p	signature:(struct event_base *base)
 evsig_set_base	signal.c	/^evsig_set_base(struct event_base *base)$/;"	f	signature:(struct event_base *base)
-evsignal_add	include/event2/event.h	769;"	d
-evsignal_assign	include/event2/event.h	770;"	d
-evsignal_del	include/event2/event.h	774;"	d
-evsignal_initialized	include/event2/event.h	776;"	d
-evsignal_new	include/event2/event.h	772;"	d
-evsignal_pending	include/event2/event.h	775;"	d
+evsignal_add	include/event2/event.h	771;"	d
+evsignal_assign	include/event2/event.h	772;"	d
+evsignal_del	include/event2/event.h	776;"	d
+evsignal_initialized	include/event2/event.h	778;"	d
+evsignal_new	include/event2/event.h	774;"	d
+evsignal_pending	include/event2/event.h	777;"	d
 evsignal_set	include/event2/event_compat.h	177;"	d
 evsigops	signal.c	/^static const struct eventop evsigops = {$/;"	v	typeref:struct:eventop	file:
 evsigsel	event-internal.h	/^	const struct eventop *evsigsel;$/;"	m	struct:event_base	typeref:struct:event_base::eventop	access:public
@@ -5193,12 +5195,12 @@ evthread_win32_lock	evthread_win32.c	/^evthread_win32_lock(unsigned mode, void *
 evthread_win32_lock_create	evthread_win32.c	/^evthread_win32_lock_create(unsigned locktype)$/;"	f	file:	signature:(unsigned locktype)
 evthread_win32_lock_free	evthread_win32.c	/^evthread_win32_lock_free(void *_lock, unsigned locktype)$/;"	f	file:	signature:(void *_lock, unsigned locktype)
 evthread_win32_unlock	evthread_win32.c	/^evthread_win32_unlock(unsigned mode, void *_lock)$/;"	f	file:	signature:(unsigned mode, void *_lock)
-evtimer_add	include/event2/event.h	757;"	d
-evtimer_assign	include/event2/event.h	754;"	d
-evtimer_del	include/event2/event.h	758;"	d
-evtimer_initialized	include/event2/event.h	760;"	d
-evtimer_new	include/event2/event.h	756;"	d
-evtimer_pending	include/event2/event.h	759;"	d
+evtimer_add	include/event2/event.h	759;"	d
+evtimer_assign	include/event2/event.h	756;"	d
+evtimer_del	include/event2/event.h	760;"	d
+evtimer_initialized	include/event2/event.h	762;"	d
+evtimer_new	include/event2/event.h	758;"	d
+evtimer_pending	include/event2/event.h	761;"	d
 evtimer_set	include/event2/event_compat.h	176;"	d
 evutil_addrinfo	include/event2/util.h	/^struct evutil_addrinfo {$/;"	s
 evutil_addrinfo	include/event2/util.h	506;"	d
@@ -5760,10 +5762,10 @@ host_vendor	test/Makefile	/^host_vendor = unknown$/;"	m
 hostname	evdns.c	/^	char hostname[1];$/;"	m	struct:hosts_entry	file:	access:public
 hosts_entry	evdns.c	/^struct hosts_entry {$/;"	s	file:
 hosts_entry::TAILQ_ENTRY	evdns.c	/^	TAILQ_ENTRY(hosts_entry) next;$/;"	p	struct:hosts_entry	file:	access:public
-hosts_entry::__anon5::sa	evdns.c	/^		struct sockaddr sa;$/;"	m	union:hosts_entry::__anon5	typeref:struct:hosts_entry::__anon5::sockaddr	file:	access:public
-hosts_entry::__anon5::sin	evdns.c	/^		struct sockaddr_in sin;$/;"	m	union:hosts_entry::__anon5	typeref:struct:hosts_entry::__anon5::sockaddr_in	file:	access:public
-hosts_entry::__anon5::sin6	evdns.c	/^		struct sockaddr_in6 sin6;$/;"	m	union:hosts_entry::__anon5	typeref:struct:hosts_entry::__anon5::sockaddr_in6	file:	access:public
-hosts_entry::addr	evdns.c	/^	} addr;$/;"	m	struct:hosts_entry	typeref:union:hosts_entry::__anon5	file:	access:public
+hosts_entry::__anon8::sa	evdns.c	/^		struct sockaddr sa;$/;"	m	union:hosts_entry::__anon8	typeref:struct:hosts_entry::__anon8::sockaddr	file:	access:public
+hosts_entry::__anon8::sin	evdns.c	/^		struct sockaddr_in sin;$/;"	m	union:hosts_entry::__anon8	typeref:struct:hosts_entry::__anon8::sockaddr_in	file:	access:public
+hosts_entry::__anon8::sin6	evdns.c	/^		struct sockaddr_in6 sin6;$/;"	m	union:hosts_entry::__anon8	typeref:struct:hosts_entry::__anon8::sockaddr_in6	file:	access:public
+hosts_entry::addr	evdns.c	/^	} addr;$/;"	m	struct:hosts_entry	typeref:union:hosts_entry::__anon8	file:	access:public
 hosts_entry::addrlen	evdns.c	/^	int addrlen;$/;"	m	struct:hosts_entry	file:	access:public
 hosts_entry::hostname	evdns.c	/^	char hostname[1];$/;"	m	struct:hosts_entry	file:	access:public
 how_assign	test/regress.gen.h	/^  int (*how_assign)(struct run *, const char *);$/;"	m	struct:run_access_	access:public
@@ -5929,10 +5931,10 @@ input_buffer	include/event2/http_struct.h	/^	struct evbuffer *input_buffer;	\/* 
 input_headers	include/event2/http_struct.h	/^	struct evkeyvalq *input_headers;$/;"	m	struct:evhttp_request	typeref:struct:evhttp_request::evkeyvalq	access:public
 input_hooks	evrpc-internal.h	67;"	d
 insert_common_timeout_inorder	event.c	/^insert_common_timeout_inorder(struct common_timeout_list *ctl,$/;"	f	file:	signature:(struct common_timeout_list *ctl, struct event *ev)
-install_sh	Makefile	/^install_sh = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/install-sh$/;"	m
-install_sh	include/Makefile	/^install_sh = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/install-sh$/;"	m
-install_sh	sample/Makefile	/^install_sh = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/install-sh$/;"	m
-install_sh	test/Makefile	/^install_sh = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-2.0.21-stable\/install-sh$/;"	m
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/install-sh$/;"	m
+install_sh	include/Makefile	/^install_sh = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/install-sh$/;"	m
+install_sh	sample/Makefile	/^install_sh = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/install-sh$/;"	m
+install_sh	test/Makefile	/^install_sh = ${SHELL} \/home\/chenhanbing\/workspace\/libevent-note\/install-sh$/;"	m
 install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
 install_sh_DATA	include/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
 install_sh_DATA	sample/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
@@ -6218,7 +6220,7 @@ min	test/test-ratelim.c	/^	const char *name; int *ptr; int min; int isbool;$/;"	
 min_heap	minheap-internal.h	/^typedef struct min_heap$/;"	s
 min_heap::a	minheap-internal.h	/^	unsigned n, a;$/;"	m	struct:min_heap	access:public
 min_heap::n	minheap-internal.h	/^	unsigned n, a;$/;"	m	struct:min_heap	access:public
-min_heap::p	minheap-internal.h	/^	struct event** p;$/;"	m	struct:min_heap	typeref:struct:min_heap::event	access:public
+min_heap::p	minheap-internal.h	/^	struct event ** p;$/;"	m	struct:min_heap	typeref:struct:min_heap::event	access:public
 min_heap_ctor	minheap-internal.h	/^static inline void	     min_heap_ctor(min_heap_t* s);$/;"	p	signature:(min_heap_t* s)
 min_heap_ctor	minheap-internal.h	/^void min_heap_ctor(min_heap_t* s) { s->p = 0; s->n = 0; s->a = 0; }$/;"	f	signature:(min_heap_t* s)
 min_heap_dtor	minheap-internal.h	/^static inline void	     min_heap_dtor(min_heap_t* s);$/;"	p	signature:(min_heap_t* s)
@@ -6229,11 +6231,11 @@ min_heap_elem_init	minheap-internal.h	/^static inline void	     min_heap_elem_in
 min_heap_elem_init	minheap-internal.h	/^void min_heap_elem_init(struct event* e) { e->ev_timeout_pos.min_heap_idx = -1; }$/;"	f	signature:(struct event* e)
 min_heap_elt_is_top	minheap-internal.h	/^int min_heap_elt_is_top(const struct event *e)$/;"	f	signature:(const struct event *e)
 min_heap_elt_is_top	minheap-internal.h	/^static inline int	     min_heap_elt_is_top(const struct event *e);$/;"	p	signature:(const struct event *e)
-min_heap_empty	minheap-internal.h	/^int min_heap_empty(min_heap_t* s) { return 0u == s->n; }$/;"	f	signature:(min_heap_t* s)
+min_heap_empty	minheap-internal.h	/^int min_heap_empty(min_heap_t* s) { return 0u == s->n; }    \/\/ 这货会直接隐式转化啊.写个0u干嘛...$/;"	f	signature:(min_heap_t* s)
 min_heap_empty	minheap-internal.h	/^static inline int	     min_heap_empty(min_heap_t* s);$/;"	p	signature:(min_heap_t* s)
 min_heap_erase	minheap-internal.h	/^int min_heap_erase(min_heap_t* s, struct event* e)$/;"	f	signature:(min_heap_t* s, struct event* e)
 min_heap_erase	minheap-internal.h	/^static inline int	     min_heap_erase(min_heap_t* s, struct event* e);$/;"	p	signature:(min_heap_t* s, struct event* e)
-min_heap_idx	include/event2/event_struct.h	/^		int min_heap_idx;$/;"	m	union:event::__anon9	access:public
+min_heap_idx	include/event2/event_struct.h	/^		int min_heap_idx;                                         \/\/ 该时间在event定时最小堆的位置$/;"	m	union:event::__anon9	access:public
 min_heap_pop	minheap-internal.h	/^static inline struct event*  min_heap_pop(min_heap_t* s);$/;"	p	signature:(min_heap_t* s)
 min_heap_pop	minheap-internal.h	/^struct event* min_heap_pop(min_heap_t* s)$/;"	f	signature:(min_heap_t* s)
 min_heap_push	minheap-internal.h	/^int min_heap_push(min_heap_t* s, struct event* e)$/;"	f	signature:(min_heap_t* s, struct event* e)
@@ -6253,10 +6255,10 @@ min_share	bufferevent-internal.h	/^	ev_ssize_t min_share;$/;"	m	struct:buffereve
 minheap_testcases	test/regress_minheap.c	/^struct testcase_t minheap_testcases[] = {$/;"	v	typeref:struct:testcase_t
 minor	include/event2/http_struct.h	/^	char minor;			\/* HTTP Minor number *\/$/;"	m	struct:evhttp_request	access:public
 misalign	evbuffer-internal.h	/^	ev_off_t misalign;$/;"	m	struct:evbuffer_chain	access:public
-mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
-mkdir_p	include/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
-mkdir_p	sample/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
-mkdir_p	test/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	Makefile	/^mkdir_p = \/usr\/bin\/mkdir -p$/;"	m
+mkdir_p	include/Makefile	/^mkdir_p = \/usr\/bin\/mkdir -p$/;"	m
+mkdir_p	sample/Makefile	/^mkdir_p = \/usr\/bin\/mkdir -p$/;"	m
+mkdir_p	test/Makefile	/^mkdir_p = \/usr\/bin\/mkdir -p$/;"	m
 mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
 mkinstalldirs	include/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
 mkinstalldirs	sample/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
@@ -6274,7 +6276,7 @@ mm_strdup	mm-internal.h	52;"	d
 mode_t	evutil.c	88;"	d	file:
 ms	iocp-internal.h	/^	long ms;$/;"	m	struct:event_iocp_port	access:public
 msec_per_tick	ratelim-internal.h	/^	unsigned msec_per_tick;$/;"	m	struct:ev_token_bucket_cfg	access:public
-msg	evutil.c	/^static struct { int code; const char *msg; } windows_socket_errors[] = {$/;"	m	struct:__anon13	file:	access:public
+msg	evutil.c	/^static struct { int code; const char *msg; } windows_socket_errors[] = {$/;"	m	struct:__anon3	file:	access:public
 msg	test/regress.gen.h	/^struct msg {$/;"	s
 msg::attack_data	test/regress.gen.h	/^  struct kill* attack_data;$/;"	m	struct:msg	typeref:struct:msg::kill	access:public
 msg::attack_set	test/regress.gen.h	/^  ev_uint8_t attack_set;$/;"	m	struct:msg	access:public
@@ -6374,7 +6376,7 @@ n_waiting	evthread_win32.c	/^	int n_waiting;$/;"	m	struct:evthread_win32_cond	fi
 n_write_timeouts	test/regress_bufferevent.c	/^	int n_write_timeouts;$/;"	m	struct:timeout_cb_result	file:	access:public
 n_written	bufferevent_openssl.c	/^	unsigned long n_written;$/;"	m	struct:bio_data_counts	file:	access:public
 nactivequeues	event-internal.h	/^	int nactivequeues;$/;"	m	struct:event_base	access:public
-name	evdns.c	/^			char name[HOST_NAME_MAX];$/;"	m	struct:reply::__anon1::__anon4	file:	access:public
+name	evdns.c	/^			char name[HOST_NAME_MAX];$/;"	m	struct:reply::__anon4::__anon7	file:	access:public
 name	evdns.c	/^	char *name; \/* name part of the RR *\/$/;"	m	struct:server_reply_item	file:	access:public
 name	event-internal.h	/^	const char *name;$/;"	m	struct:eventop	access:public
 name	evrpc-internal.h	/^	char *name;$/;"	m	struct:evrpc_request_wrapper	access:public
@@ -6525,7 +6527,7 @@ overlapped	iocp-internal.h	/^	OVERLAPPED overlapped;$/;"	m	struct:event_overlapp
 overlapped	listener.c	/^	struct event_overlapped overlapped;$/;"	m	struct:accepting_socket	typeref:struct:accepting_socket::event_overlapped	file:	access:public
 own_lock	bufferevent-internal.h	/^	unsigned own_lock : 1;$/;"	m	struct:bufferevent_private	access:public
 own_lock	evbuffer-internal.h	/^	unsigned own_lock : 1;$/;"	m	struct:evbuffer	access:public
-p	minheap-internal.h	/^	struct event** p;$/;"	m	struct:min_heap	typeref:struct:min_heap::event	access:public
+p	minheap-internal.h	/^	struct event ** p;$/;"	m	struct:min_heap	typeref:struct:min_heap::event	access:public
 pai_events	test/regress.c	/^static struct event pai_events[3];$/;"	v	typeref:struct:event	file:
 pair	test/regress.c	/^evutil_socket_t pair[2];$/;"	v
 pair	test/regress.h	/^	evutil_socket_t pair[2];$/;"	m	struct:basic_test_data	access:public
@@ -6614,7 +6616,7 @@ port	listener.c	/^	struct event_iocp_port *port;$/;"	m	struct:evconnlistener_ioc
 port	test/regress_util.c	/^	int port;$/;"	m	struct:sa_port_ent	file:	access:public
 pos	evdns.c	/^struct dnslabel_entry { char *v; off_t pos; };$/;"	m	struct:dnslabel_entry	file:	access:public
 pos	include/event2/buffer.h	/^	ev_ssize_t pos;$/;"	m	struct:evbuffer_ptr	access:public
-pos_in_chain	include/event2/buffer.h	/^		size_t pos_in_chain;$/;"	m	struct:evbuffer_ptr::__anon8	access:public
+pos_in_chain	include/event2/buffer.h	/^		size_t pos_in_chain;$/;"	m	struct:evbuffer_ptr::__anon13	access:public
 prefix	Makefile	/^prefix = \/usr\/local$/;"	m
 prefix	include/Makefile	/^prefix = \/usr\/local$/;"	m
 prefix	sample/Makefile	/^prefix = \/usr\/local$/;"	m
@@ -6642,7 +6644,7 @@ psdir	include/Makefile	/^psdir = ${docdir}$/;"	m
 psdir	sample/Makefile	/^psdir = ${docdir}$/;"	m
 psdir	test/Makefile	/^psdir = ${docdir}$/;"	m
 ptr	bufferevent-internal.h	/^	void *ptr;$/;"	m	union:bufferevent_ctrl_data	access:public
-ptr	evdns.c	/^		} ptr;$/;"	m	union:reply::__anon1	typeref:struct:reply::__anon1::__anon4	file:	access:public
+ptr	evdns.c	/^		} ptr;$/;"	m	union:reply::__anon4	typeref:struct:reply::__anon4::__anon7	file:	access:public
 ptr	event.c	/^	const struct event *ptr;$/;"	m	struct:event_debug_entry	typeref:struct:event_debug_entry::event	file:	access:public
 ptr	test/test-ratelim.c	/^	const char *name; int *ptr; int min; int isbool;$/;"	m	struct:option	file:	access:public
 put_cname_in_ptr	evdns.c	/^	char **put_cname_in_ptr; \/* store the cname here if we get one. *\/$/;"	m	struct:request	file:	access:public
@@ -6663,6 +6665,7 @@ ratelim_group	test/test-ratelim.c	/^struct bufferevent_rate_limit_group *ratelim
 rbuf	test/regress.c	/^static char rbuf[4096];$/;"	v	file:
 rbuf	test/regress_iocp.c	/^static struct evbuffer *rbuf = NULL, *wbuf = NULL;$/;"	v	typeref:struct:evbuffer	file:
 rcsid	strlcpy.c	/^static char *rcsid = "$OpenBSD: strlcpy.c,v 1.5 2001\/05\/13 15:40:16 deraadt Exp $";$/;"	v	file:
+re	event_rpcgen.py	/^import re$/;"	i
 re_add_read_cb	test/regress.c	/^re_add_read_cb(evutil_socket_t fd, short event, void *arg)$/;"	f	file:	signature:(evutil_socket_t fd, short event, void *arg)
 read	evutil.c	84;"	d	file:
 read	test/regress.c	98;"	d	file:
@@ -6772,15 +6775,15 @@ reply	evdns.c	/^	struct reply reply;$/;"	m	struct:deferred_reply_callback	typere
 reply	evdns.c	/^struct reply {$/;"	s	file:
 reply	evrpc-internal.h	/^	void *reply;$/;"	m	struct:evrpc_req_generic	access:public
 reply	evrpc-internal.h	/^	void *reply;$/;"	m	struct:evrpc_request_wrapper	access:public
-reply::__anon1::__anon2::addrcount	evdns.c	/^			u32 addrcount;$/;"	m	struct:reply::__anon1::__anon2	file:	access:public
-reply::__anon1::__anon2::addresses	evdns.c	/^			u32 addresses[MAX_V4_ADDRS];$/;"	m	struct:reply::__anon1::__anon2	file:	access:public
-reply::__anon1::__anon3::addrcount	evdns.c	/^			u32 addrcount;$/;"	m	struct:reply::__anon1::__anon3	file:	access:public
-reply::__anon1::__anon3::addresses	evdns.c	/^			struct in6_addr addresses[MAX_V6_ADDRS];$/;"	m	struct:reply::__anon1::__anon3	typeref:struct:reply::__anon1::__anon3::in6_addr	file:	access:public
-reply::__anon1::__anon4::name	evdns.c	/^			char name[HOST_NAME_MAX];$/;"	m	struct:reply::__anon1::__anon4	file:	access:public
-reply::__anon1::a	evdns.c	/^		} a;$/;"	m	union:reply::__anon1	typeref:struct:reply::__anon1::__anon2	file:	access:public
-reply::__anon1::aaaa	evdns.c	/^		} aaaa;$/;"	m	union:reply::__anon1	typeref:struct:reply::__anon1::__anon3	file:	access:public
-reply::__anon1::ptr	evdns.c	/^		} ptr;$/;"	m	union:reply::__anon1	typeref:struct:reply::__anon1::__anon4	file:	access:public
-reply::data	evdns.c	/^	} data;$/;"	m	struct:reply	typeref:union:reply::__anon1	file:	access:public
+reply::__anon4::__anon5::addrcount	evdns.c	/^			u32 addrcount;$/;"	m	struct:reply::__anon4::__anon5	file:	access:public
+reply::__anon4::__anon5::addresses	evdns.c	/^			u32 addresses[MAX_V4_ADDRS];$/;"	m	struct:reply::__anon4::__anon5	file:	access:public
+reply::__anon4::__anon6::addrcount	evdns.c	/^			u32 addrcount;$/;"	m	struct:reply::__anon4::__anon6	file:	access:public
+reply::__anon4::__anon6::addresses	evdns.c	/^			struct in6_addr addresses[MAX_V6_ADDRS];$/;"	m	struct:reply::__anon4::__anon6	typeref:struct:reply::__anon4::__anon6::in6_addr	file:	access:public
+reply::__anon4::__anon7::name	evdns.c	/^			char name[HOST_NAME_MAX];$/;"	m	struct:reply::__anon4::__anon7	file:	access:public
+reply::__anon4::a	evdns.c	/^		} a;$/;"	m	union:reply::__anon4	typeref:struct:reply::__anon4::__anon5	file:	access:public
+reply::__anon4::aaaa	evdns.c	/^		} aaaa;$/;"	m	union:reply::__anon4	typeref:struct:reply::__anon4::__anon6	file:	access:public
+reply::__anon4::ptr	evdns.c	/^		} ptr;$/;"	m	union:reply::__anon4	typeref:struct:reply::__anon4::__anon7	file:	access:public
+reply::data	evdns.c	/^	} data;$/;"	m	struct:reply	typeref:union:reply::__anon4	file:	access:public
 reply::have_answer	evdns.c	/^	unsigned int have_answer : 1;$/;"	m	struct:reply	file:	access:public
 reply::type	evdns.c	/^	unsigned int type;$/;"	m	struct:reply	file:	access:public
 reply_clear	evrpc-internal.h	/^	void (*reply_clear)(void *);$/;"	m	struct:evrpc_request_wrapper	access:public
@@ -6987,7 +6990,7 @@ running_loop	event-internal.h	/^	int running_loop;$/;"	m	struct:event_base	acces
 s	arc4random.c	/^	unsigned char s[256];$/;"	m	struct:arc4_stream	file:	access:public
 s	listener.c	/^	SOCKET s;$/;"	m	struct:accepting_socket	file:	access:public
 s6_addr	ipv6-internal.h	/^	ev_uint8_t s6_addr[16];$/;"	m	struct:in6_addr	access:public
-sa	evdns.c	/^		struct sockaddr sa;$/;"	m	union:hosts_entry::__anon5	typeref:struct:hosts_entry::__anon5::sockaddr	file:	access:public
+sa	evdns.c	/^		struct sockaddr sa;$/;"	m	union:hosts_entry::__anon8	typeref:struct:hosts_entry::__anon8::sockaddr	file:	access:public
 sa_family_t	ipv6-internal.h	/^typedef int sa_family_t;$/;"	t
 sa_port_ent	test/regress_util.c	/^static struct sa_port_ent {$/;"	s	file:
 sa_port_ent::addr	test/regress_util.c	/^	const char *addr;$/;"	m	struct:sa_port_ent	file:	access:public
@@ -7150,8 +7153,8 @@ simple_read_cb	test/regress.c	/^simple_read_cb(evutil_socket_t fd, short event, 
 simple_write_cb	test/regress.c	/^simple_write_cb(evutil_socket_t fd, short event, void *arg)$/;"	f	file:	signature:(evutil_socket_t fd, short event, void *arg)
 simpleclose_close_fd_cb	test/regress.c	/^simpleclose_close_fd_cb(evutil_socket_t s, short what, void *ptr)$/;"	f	file:	signature:(evutil_socket_t s, short what, void *ptr)
 simpleread_multiple_cb	test/regress.c	/^simpleread_multiple_cb(evutil_socket_t fd, short event, void *arg)$/;"	f	file:	signature:(evutil_socket_t fd, short event, void *arg)
-sin	evdns.c	/^		struct sockaddr_in sin;$/;"	m	union:hosts_entry::__anon5	typeref:struct:hosts_entry::__anon5::sockaddr_in	file:	access:public
-sin6	evdns.c	/^		struct sockaddr_in6 sin6;$/;"	m	union:hosts_entry::__anon5	typeref:struct:hosts_entry::__anon5::sockaddr_in6	file:	access:public
+sin	evdns.c	/^		struct sockaddr_in sin;$/;"	m	union:hosts_entry::__anon8	typeref:struct:hosts_entry::__anon8::sockaddr_in	file:	access:public
+sin6	evdns.c	/^		struct sockaddr_in6 sin6;$/;"	m	union:hosts_entry::__anon8	typeref:struct:hosts_entry::__anon8::sockaddr_in6	file:	access:public
 sin6_addr	ipv6-internal.h	/^	struct in6_addr sin6_addr;$/;"	m	struct:sockaddr_in6	typeref:struct:sockaddr_in6::in6_addr	access:public
 sin6_family	ipv6-internal.h	/^	sa_family_t sin6_family;$/;"	m	struct:sockaddr_in6	access:public
 sin6_port	ipv6-internal.h	/^	ev_uint16_t sin6_port;$/;"	m	struct:sockaddr_in6	access:public
@@ -7166,11 +7169,11 @@ sockaddr_in6::sin6_family	ipv6-internal.h	/^	sa_family_t sin6_family;$/;"	m	stru
 sockaddr_in6::sin6_port	ipv6-internal.h	/^	ev_uint16_t sin6_port;$/;"	m	struct:sockaddr_in6	access:public
 sockaddr_setport	evdns.c	/^sockaddr_setport(struct sockaddr *sa, ev_uint16_t port)$/;"	f	file:	signature:(struct sockaddr *sa, ev_uint16_t port)
 sockaddr_storage	util-internal.h	/^struct sockaddr_storage {$/;"	s
-sockaddr_storage::__anon14::ss_padding	util-internal.h	/^		char ss_padding[128];$/;"	m	union:sockaddr_storage::__anon14	access:public
-sockaddr_storage::__anon14::ss_sa	util-internal.h	/^		struct sockaddr ss_sa;$/;"	m	union:sockaddr_storage::__anon14	typeref:struct:sockaddr_storage::__anon14::sockaddr	access:public
-sockaddr_storage::__anon14::ss_sin	util-internal.h	/^		struct sockaddr_in ss_sin;$/;"	m	union:sockaddr_storage::__anon14	typeref:struct:sockaddr_storage::__anon14::sockaddr_in	access:public
-sockaddr_storage::__anon14::ss_sin6	util-internal.h	/^		struct sockaddr_in6 ss_sin6;$/;"	m	union:sockaddr_storage::__anon14	typeref:struct:sockaddr_storage::__anon14::sockaddr_in6	access:public
-sockaddr_storage::ss_union	util-internal.h	/^	} ss_union;$/;"	m	struct:sockaddr_storage	typeref:union:sockaddr_storage::__anon14	access:public
+sockaddr_storage::__anon2::ss_padding	util-internal.h	/^		char ss_padding[128];$/;"	m	union:sockaddr_storage::__anon2	access:public
+sockaddr_storage::__anon2::ss_sa	util-internal.h	/^		struct sockaddr ss_sa;$/;"	m	union:sockaddr_storage::__anon2	typeref:struct:sockaddr_storage::__anon2::sockaddr	access:public
+sockaddr_storage::__anon2::ss_sin	util-internal.h	/^		struct sockaddr_in ss_sin;$/;"	m	union:sockaddr_storage::__anon2	typeref:struct:sockaddr_storage::__anon2::sockaddr_in	access:public
+sockaddr_storage::__anon2::ss_sin6	util-internal.h	/^		struct sockaddr_in6 ss_sin6;$/;"	m	union:sockaddr_storage::__anon2	typeref:struct:sockaddr_storage::__anon2::sockaddr_in6	access:public
+sockaddr_storage::ss_union	util-internal.h	/^	} ss_union;$/;"	m	struct:sockaddr_storage	typeref:union:sockaddr_storage::__anon2	access:public
 socket	evdns.c	/^	evutil_socket_t socket;	 \/* a connected UDP socket *\/$/;"	m	struct:nameserver	file:	access:public
 socket	evdns.c	/^	evutil_socket_t socket; \/* socket we use to read queries and write replies. *\/$/;"	m	struct:evdns_server_port	file:	access:public
 sockets	http-internal.h	/^	TAILQ_HEAD(boundq, evhttp_bound_socket) sockets;$/;"	m	struct:evhttp	access:public
@@ -7186,11 +7189,11 @@ srcdir	sample/Makefile	/^srcdir = .$/;"	m
 srcdir	test/Makefile	/^srcdir = .$/;"	m
 ss_family	include/event2/util.h	264;"	d
 ss_family	util-internal.h	227;"	d
-ss_padding	util-internal.h	/^		char ss_padding[128];$/;"	m	union:sockaddr_storage::__anon14	access:public
-ss_sa	util-internal.h	/^		struct sockaddr ss_sa;$/;"	m	union:sockaddr_storage::__anon14	typeref:struct:sockaddr_storage::__anon14::sockaddr	access:public
-ss_sin	util-internal.h	/^		struct sockaddr_in ss_sin;$/;"	m	union:sockaddr_storage::__anon14	typeref:struct:sockaddr_storage::__anon14::sockaddr_in	access:public
-ss_sin6	util-internal.h	/^		struct sockaddr_in6 ss_sin6;$/;"	m	union:sockaddr_storage::__anon14	typeref:struct:sockaddr_storage::__anon14::sockaddr_in6	access:public
-ss_union	util-internal.h	/^	} ss_union;$/;"	m	struct:sockaddr_storage	typeref:union:sockaddr_storage::__anon14	access:public
+ss_padding	util-internal.h	/^		char ss_padding[128];$/;"	m	union:sockaddr_storage::__anon2	access:public
+ss_sa	util-internal.h	/^		struct sockaddr ss_sa;$/;"	m	union:sockaddr_storage::__anon2	typeref:struct:sockaddr_storage::__anon2::sockaddr	access:public
+ss_sin	util-internal.h	/^		struct sockaddr_in ss_sin;$/;"	m	union:sockaddr_storage::__anon2	typeref:struct:sockaddr_storage::__anon2::sockaddr_in	access:public
+ss_sin6	util-internal.h	/^		struct sockaddr_in6 ss_sin6;$/;"	m	union:sockaddr_storage::__anon2	typeref:struct:sockaddr_storage::__anon2::sockaddr_in6	access:public
+ss_union	util-internal.h	/^	} ss_union;$/;"	m	struct:sockaddr_storage	typeref:union:sockaddr_storage::__anon2	access:public
 ssize_t	evutil_rand.c	101;"	d	file:
 ssl	bufferevent_openssl.c	/^	SSL *ssl;$/;"	m	struct:bufferevent_openssl	file:	access:public
 ssl_ctx	sample/le-proxy.c	/^static SSL_CTX *ssl_ctx = NULL;$/;"	v	file:
@@ -7231,6 +7234,7 @@ success_phrases	http.c	/^static const char *success_phrases[] = {$/;"	v	file:
 supported_locktypes	include/event2/thread.h	/^	unsigned supported_locktypes;$/;"	m	struct:evthread_lock_callbacks	access:public
 syntax	sample/http-server.c	/^syntax(void)$/;"	f	file:	signature:(void)
 syntax	sample/le-proxy.c	/^syntax(void)$/;"	f	file:	signature:(void)
+sys	event_rpcgen.py	/^import sys$/;"	i
 sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
 sysconfdir	include/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
 sysconfdir	sample/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
@@ -7670,7 +7674,7 @@ win32ops	win32select.c	/^struct eventop win32ops = {$/;"	v	typeref:struct:evento
 win_fd_set	win32select.c	/^struct win_fd_set {$/;"	s	file:
 win_fd_set::fd_array	win32select.c	/^	SOCKET fd_array[1];$/;"	m	struct:win_fd_set	file:	access:public
 win_fd_set::fd_count	win32select.c	/^	u_int fd_count;$/;"	m	struct:win_fd_set	file:	access:public
-windows_socket_errors	evutil.c	/^static struct { int code; const char *msg; } windows_socket_errors[] = {$/;"	v	typeref:struct:__anon13	file:
+windows_socket_errors	evutil.c	/^static struct { int code; const char *msg; } windows_socket_errors[] = {$/;"	v	typeref:struct:__anon3	file:
 wm_errorcb	test/regress_bufferevent.c	/^wm_errorcb(struct bufferevent *bev, short what, void *arg)$/;"	f	file:	signature:(struct bufferevent *bev, short what, void *arg)
 wm_read	include/event2/bufferevent_struct.h	/^	struct event_watermark wm_read;$/;"	m	struct:bufferevent	typeref:struct:bufferevent::event_watermark	access:public
 wm_readcb	test/regress_bufferevent.c	/^wm_readcb(struct bufferevent *bev, void *arg)$/;"	f	file:	signature:(struct bufferevent *bev, void *arg)

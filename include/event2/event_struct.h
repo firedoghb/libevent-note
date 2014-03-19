@@ -96,7 +96,7 @@ struct event {
 
 	evutil_socket_t ev_fd;                                        // 对于I/O事件，代表文件描述符
                                                                   // 对于信号事件，代表信号
-    
+
 	struct event_base *ev_base;
 
 	union {
@@ -115,7 +115,13 @@ struct event {
 		} ev_signal;
 	} _ev;
 
-	short ev_events;    // 触发信号，比如EV_READ | EV_WRITE
+    /* 事件类型，共有3种事件
+     * I/O事件 EV_READ | EV_WRITE
+     * 定时事件 EV_TIMEOUT
+     * 信号事件 EV_SIGNAL
+     * 剩下一个为选项 EV_PERSIST,表持久的事件
+     */
+	short ev_events;
 	short ev_res;		/* result passed to event callback */
 	short ev_flags;
 	ev_uint8_t ev_pri;	/* smaller numbers are higher priority */
