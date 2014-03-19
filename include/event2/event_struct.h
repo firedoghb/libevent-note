@@ -85,7 +85,7 @@ struct name {					\
 
 struct event_base;
 struct event {
-	TAILQ_ENTRY(event) ev_active_next;                            // 就绪事件链表
+	TAILQ_ENTRY(event) ev_active_next;                            // 就绪事件链表,通过它执行调度
 	TAILQ_ENTRY(event) ev_next;                                   // 已注册的事件链表
 
 	/* for managing timeouts */
@@ -123,7 +123,7 @@ struct event {
      */
 	short ev_events;
 	short ev_res;		/* result passed to event callback */
-	short ev_flags;
+	short ev_flags;     // 表明event当前状态的字段
 	ev_uint8_t ev_pri;	/* smaller numbers are higher priority */
 	ev_uint8_t ev_closure;
 	struct timeval ev_timeout;      // 保存事件的超时时间

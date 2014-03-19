@@ -578,7 +578,7 @@ event_base_new_with_config(const struct event_config *cfg)
     // 初始化超时的优先级队列 最小堆实现
 	min_heap_ctor(&base->timeheap);
 
-    /// 双端队列
+    // 双端队列初始化
 	TAILQ_INIT(&base->eventqueue);
 	base->sig.ev_signal_pair[0] = -1;
 	base->sig.ev_signal_pair[1] = -1;
@@ -1792,7 +1792,7 @@ event_base_set(struct event_base *base, struct event *ev)
 
 /* --------------------------------------------------------------------------*/
 /**
- * @brief  将event挂在event_base上
+ * @brief  初始化设置struct event
  *
  * @param ev        要设置的event
  * @param fd        要设置的描述符,可以为-1

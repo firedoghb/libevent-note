@@ -167,12 +167,16 @@ extern int _event_debug_mode_on;
 #define EVENT_DEBUG_MODE_IS_ON() (0)
 #endif
 
+/* reactor模式框架
+ */
 struct event_base {
 	/** Function pointers and other data to describe this event_base's
 	 * backend. */
 	const struct eventop *evsel;                        // I/O函数的后端实现(即跨平台选择，在linux上为epoll实现)
 	/** Pointer to backend-specific data. */
-	void *evbase;                                       // I/O函数集的全局指针
+	void *evbase;                                       // I/O函数集的全局指针 (an instance for eventop)
+
+    /* evsel->add(evbase,ev) == evsel::add(instance,ev); */
 
 	/** List of changes to tell backend about at next dispatch.  Only used
 	 * by the O(1) backends. */
@@ -211,7 +215,7 @@ struct event_base {
 	 * have triggered, and whose callbacks need to be called).  Low
 	 * priority numbers are more important, and stall higher ones.
 	 */
-	struct event_list *activequeues;
+	struct event_list *activequeues;                // 二级链表 activequeues[priority] 是一个链表，挂着优先级为priority的event
 	/** The length of the activequeues array */
 	int nactivequeues;
 
@@ -236,7 +240,7 @@ struct event_base {
 	struct event_signal_map sigmap;
 
 	/** All events that have been enabled (added) in this event_base */
-	struct event_list eventqueue;
+	struct event_list eventqueue;                  // 这链表挂着所有的注册了的event
 
 	/** Stored timeval; used to detect when time is running backwards. */
 	struct timeval event_tv;
@@ -261,7 +265,7 @@ struct event_base {
 	/** The thread currently running the event_loop for this base */
 	unsigned long th_owner_id;
 	/** A lock to prevent conflicting accesses to this event_base */
-	void *th_base_lock;
+	void *th_base_lock;                  // TODO
 	/** The event whose callback is executing right now */
 	struct event *current_event;
 	/** A condition that gets signalled when we're done processing an
