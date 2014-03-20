@@ -71,9 +71,9 @@ int min_heap_elem_greater(struct event *a, struct event *b)
 void min_heap_ctor(min_heap_t* s) { s->p = 0; s->n = 0; s->a = 0; }
 void min_heap_dtor(min_heap_t* s) { if (s->p) mm_free(s->p); }
 
-void min_heap_elem_init(struct event* e) { e->ev_timeout_pos.min_heap_idx = -1; }
+void min_heap_elem_init(struct event* e) { e->ev_timeout_pos.min_heap_idx = -1; }  // min_heap_idx 为该堆区的下标位置
 int min_heap_empty(min_heap_t* s) { return 0u == s->n; }    // 这货会直接隐式转化啊.写个0u干嘛...
-unsigned min_heap_size(min_heap_t* s) { return s->n; }
+unsigned min_heap_size(min_heap_t* s) { return s->n; }      // 返回当前最小堆中已有的元素个数
 struct event* min_heap_top(min_heap_t* s) { return s->n ? *s->p : 0; }
 
 int min_heap_push(min_heap_t* s, struct event* e)

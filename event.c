@@ -1744,7 +1744,7 @@ event_assign(struct event *ev, struct event_base *base, evutil_socket_t fd, shor
 
 	_event_debug_assert_not_added(ev);
 
-	ev->ev_base = base;
+	ev->ev_base = base;                   // event_set的时候，event_base 为当前的base
 
 	ev->ev_callback = callback;
 	ev->ev_arg = arg;
@@ -1992,7 +1992,7 @@ event_get_callback_arg(const struct event *ev)
  * @param ev    要注册的事件
  * @param tv    超时时间
  *
- * @returns   
+ * @returns
  *            失败返回-1
  */
 /* ----------------------------------------------------------------------------*/
@@ -2071,7 +2071,7 @@ evthread_notify_base(struct event_base *base)
 static inline int
 event_add_internal(struct event *ev, const struct timeval *tv,
     int tv_is_absolute)
-{
+{      // 返回当前最小堆中已有的元素个数
 	struct event_base *base = ev->ev_base;
 	int res = 0;
 	int notify = 0;
