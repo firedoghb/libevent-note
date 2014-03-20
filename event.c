@@ -584,7 +584,8 @@ event_base_new_with_config(const struct event_config *cfg)
 	base->sig.ev_signal_pair[1] = -1;
 	base->th_notify_fd[0] = -1;
 	base->th_notify_fd[1] = -1;
-
+    
+    // 这是撒？
 	event_deferred_cb_queue_init(&base->defer_queue);
 	base->defer_queue.notify_fn = notify_base_cbq_callback;
 	base->defer_queue.notify_arg = base;
@@ -600,6 +601,10 @@ event_base_new_with_config(const struct event_config *cfg)
 	should_check_environment =
 	    !(cfg && (cfg->flags & EVENT_BASE_FLAG_IGNORE_ENV));
 
+    /* eventops为一个全局数组，记录了所有的多路复用方法
+     * 找一个合适的方法，放入evsel中，
+     * 并且初始化一个实例给evbase指针保存
+     */
 	for (i = 0; eventops[i] && !base->evbase; i++) {
 		if (cfg != NULL) {
 			/* determine if this backend should be avoided */
@@ -618,9 +623,11 @@ event_base_new_with_config(const struct event_config *cfg)
 
 		base->evsel = eventops[i];
 
+        // 初始化一个多路复用结构的实例
 		base->evbase = base->evsel->init(base);
 	}
 
+    // 初始化失败
 	if (base->evbase == NULL) {
 		event_warnx("%s: no event mechanism available",
 		    __func__);
@@ -633,6 +640,7 @@ event_base_new_with_config(const struct event_config *cfg)
 		event_msgx("libevent using: %s", base->evsel->name);
 
 	/* allocate a single active event queue */
+    // 分配一个优先级为1的队列(0下标开始)
 	if (event_base_priority_init(base, 1) < 0) {
 		event_base_free(base);
 		return NULL;
@@ -1024,6 +1032,7 @@ event_base_priority_init(struct event_base *base, int npriorities)
 	    || npriorities >= EVENT_MAX_PRIORITIES)
 		return (-1);
 
+    // 为毛有这个判断?
 	if (npriorities == base->nactivequeues)
 		return (0);
 
@@ -1976,6 +1985,17 @@ event_get_callback_arg(const struct event *ev)
 	return ev->ev_arg;
 }
 
+/* --------------------------------------------------------------------------*/
+/**
+ * @brief  事件注册的接口,将ev注册到event_base中
+ *
+ * @param ev    要注册的事件
+ * @param tv    超时时间
+ *
+ * @returns   
+ *            失败返回-1
+ */
+/* ----------------------------------------------------------------------------*/
 int
 event_add(struct event *ev, const struct timeval *tv)
 {

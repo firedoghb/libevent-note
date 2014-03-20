@@ -40,6 +40,11 @@ typedef struct min_heap
     // struct event 在include/event2/event_struct.h定义
 	struct event ** p;
 	unsigned n, a;
+
+    /* n为当前最后一个节点的index
+     * a为满二叉树的总个数,用于判断最小堆空间是否够用
+     */
+
 } min_heap_t;
 
 static inline void	     min_heap_ctor(min_heap_t* s);
@@ -62,8 +67,10 @@ int min_heap_elem_greater(struct event *a, struct event *b)
 	return evutil_timercmp(&a->ev_timeout, &b->ev_timeout, >);
 }
 
+// 构造函数和析构函数
 void min_heap_ctor(min_heap_t* s) { s->p = 0; s->n = 0; s->a = 0; }
 void min_heap_dtor(min_heap_t* s) { if (s->p) mm_free(s->p); }
+
 void min_heap_elem_init(struct event* e) { e->ev_timeout_pos.min_heap_idx = -1; }
 int min_heap_empty(min_heap_t* s) { return 0u == s->n; }    // 这货会直接隐式转化啊.写个0u干嘛...
 unsigned min_heap_size(min_heap_t* s) { return s->n; }
@@ -115,6 +122,18 @@ int min_heap_erase(min_heap_t* s, struct event* e)
 	return -1;
 }
 
+/* --------------------------------------------------------------------------*/
+/**
+ * @brief  为最小堆预留大于n的空间。原数据仍然保留，只确保有这么多空间.
+ *         初始化的值为8
+ *
+ * @param s    最小堆指针
+ * @param n    需要预留的空间大小
+ *
+ * @returns   成功返回0
+ *            失败返回-1
+ */
+/* ----------------------------------------------------------------------------*/
 int min_heap_reserve(min_heap_t* s, unsigned n)
 {
 	if (s->a < n)

@@ -172,7 +172,7 @@ extern int _event_debug_mode_on;
 struct event_base {
 	/** Function pointers and other data to describe this event_base's
 	 * backend. */
-	const struct eventop *evsel;                        // I/O函数的后端实现(即跨平台选择，在linux上为epoll实现)
+	const struct eventop *evsel;                        // 记录后端到底选了哪一个多路复用方法
 	/** Pointer to backend-specific data. */
 	void *evbase;                                       // I/O函数集的全局指针 (an instance for eventop)
 
